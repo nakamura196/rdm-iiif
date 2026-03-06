@@ -1,0 +1,49 @@
+# Cantaloupe Configuration
+
+# Server
+http.enabled = true
+http.host = 0.0.0.0
+http.port = 8182
+https.enabled = false
+
+# Base URI
+base_uri =
+
+# Source (HTTP - Nextcloud WebDAV)
+source.static = HttpSource
+HttpSource.BasicLookupStrategy.url_prefix = http://nextcloud/remote.php/dav/files/admin
+HttpSource.BasicLookupStrategy.url_suffix =
+HttpSource.BasicLookupStrategy.auth.basic.username = your-username
+HttpSource.BasicLookupStrategy.auth.basic.secret = your-password
+
+# Processor
+processor.selection_strategy = AutomaticSelectionStrategy
+processor.fallback = Java2dProcessor
+processor.stream_retrieval_strategy = StreamStrategy
+
+# Cache
+cache.server.source.enabled = true
+cache.server.source = FilesystemCache
+cache.server.source.ttl_seconds = 2592000
+cache.server.derivative.enabled = true
+cache.server.derivative = FilesystemCache
+cache.server.derivative.ttl_seconds = 2592000
+FilesystemCache.pathname = /var/cache/cantaloupe
+
+# IIIF
+endpoint.iiif.1.enabled = false
+endpoint.iiif.2.enabled = true
+endpoint.iiif.3.enabled = true
+endpoint.iiif.min_tile_size = 512
+endpoint.iiif.content_disposition = inline
+
+# API
+endpoint.api.enabled = false
+
+# Logging
+log.application.level = info
+log.application.ConsoleAppender.enabled = true
+log.access.ConsoleAppender.enabled = true
+
+# CORS
+endpoint.iiif.restrict_to_sizes = false

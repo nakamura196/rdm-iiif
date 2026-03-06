@@ -1,0 +1,44 @@
+# Environment files
+.env
+*.local
+
+# Dependencies
+node_modules/
+
+# Next.js
+mirador-app/.next/
+mirador-app/out/
+
+# Build outputs
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Docker volumes (if mounted locally)
+data/
+nextcloud-data/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Cantaloupe cache
+cantaloupe/cache/
+
+# Cantaloupe config (contains credentials)
+cantaloupe/cantaloupe.properties

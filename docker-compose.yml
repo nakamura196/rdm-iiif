@@ -1,0 +1,127 @@
+services:
+  nextcloud:
+    build: .
+    container_name: nextcloud
+    restart: unless-stopped
+    ports:
+      - "8080:80"
+    volumes:
+      - nextcloud_data:/var/www/html
+      - ./iiifserver:/var/www/html/custom_apps/iiifserver
+    environment:
+      - MYSQL_HOST=db
+      - MYSQL_DATABASE=nextcloud
+      - MYSQL_USER=nextcloud
+      - MYSQL_PASSWORD=${MYSQL_PASSWORD:-nextcloud_password}
+      - OBJECTSTORE_S3_BUCKET=${S3_BUCKET}
+      - OBJECTSTORE_S3_REGION=${S3_REGION:-us-east-1}
+      - OBJECTSTORE_S3_KEY=${S3_ACCESS_KEY}
+      - OBJECTSTORE_S3_SECRET=${S3_SECRET_KEY}
+      - OBJECTSTORE_S3_SSL=true
+    depends_on:
+      - db
+      - elasticsearch
+
+  db:
+    image: mariadb:10.11
+    container_name: nextcloud_db
+    restart: unless-stopped
+    volumes:
+      - db_data:/var/lib/mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD:-root_password}
+      - MYSQL_DATABASE=nextcloud
+      - MYSQL_USER=nextcloud
+      - MYSQL_PASSWORD=${MYSQL_PASSWORD:-nextcloud_password}
+
+  elasticsearch:
+    image: elasticsearch:8.11.0
+    container_name: nextcloud_elasticsearch
+    restart: unless-stopped
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=false
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+    volumes:
+      - elasticsearch_data:/usr/share/elasticsearch/data
+
+  cron:
+    build: .
+    container_name: nextcloud_cron
+    restart: unless-stopped
+    volumes:
+      - nextcloud_data:/var/www/html
+    entrypoint: /bin/sh
+    command: -c "while true; do php -f /var/www/html/cron.php; sleep 300; done"
+    depends_on:
+      - nextcloud
+      - db
+
+  fulltextsearch:
+    build: .
+    container_name: nextcloud_fulltextsearch
+    restart: unless-stopped
+    volumes:
+      - nextcloud_data:/var/www/html
+    entrypoint: /bin/sh
+    command: -c "sleep 30 && php /var/www/html/occ fulltextsearch:live"
+    depends_on:
+      - nextcloud
+      - db
+      - elasticsearch
+
+  cantaloupe:
+    build: ./cantaloupe
+    container_name: cantaloupe
+    restart: unless-stopped
+    ports:
+      - "8182:8182"
+    volumes:
+      - ./cantaloupe/cantaloupe.properties:/etc/cantaloupe/cantaloupe.properties
+      - cantaloupe_cache:/var/cache/cantaloupe
+    environment:
+      - JAVA_OPTS=-Xmx2g
+    depends_on:
+      - nextcloud
+
+  mirador-app:
+    build: ./mirador-app
+    container_name: mirador_app
+    restart: unless-stopped
+    ports:
+      - "3030:3000"
+    environment:
+      - NEXTCLOUD_URL=${NEXTCLOUD_URL:-http://nextcloud}
+      - NEXTCLOUD_USER=${NEXTCLOUD_USER:-admin}
+      - NEXTCLOUD_PASSWORD=${NEXTCLOUD_PASSWORD:-admin}
+      - ELASTICSEARCH_URL=${ELASTICSEARCH_URL:-http://elasticsearch:9200}
+      - CANTALOUPE_URL=${CANTALOUPE_URL:-http://cantaloupe:8182}
+    depends_on:
+      - nextcloud
+      - elasticsearch
+      - cantaloupe
+
+  ocr-worker:
+    build: ./ocr-worker
+    container_name: ocr_worker
+    restart: unless-stopped
+    ports:
+      - "5050:5000"
+    environment:
+      - S3_BUCKET=${S3_BUCKET}
+      - S3_REGION=${S3_REGION:-us-east-1}
+      - S3_ACCESS_KEY=${S3_ACCESS_KEY}
+      - S3_SECRET_KEY=${S3_SECRET_KEY}
+      - ELASTICSEARCH_URL=${ELASTICSEARCH_URL:-http://elasticsearch:9200}
+      - NEXTCLOUD_URL=${NEXTCLOUD_URL:-http://nextcloud}
+      - NEXTCLOUD_USER=${NEXTCLOUD_USER:-admin}
+      - NEXTCLOUD_PASSWORD=${NEXTCLOUD_PASSWORD:-admin}
+      - CHECK_INTERVAL=${CHECK_INTERVAL:-300}
+    depends_on:
+      - elasticsearch
+
+volumes:
+  nextcloud_data:
+  db_data:
+  elasticsearch_data:
+  cantaloupe_cache:

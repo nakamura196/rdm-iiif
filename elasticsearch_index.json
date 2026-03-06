@@ -1,0 +1,2450 @@
+{
+  "took": 1,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 69,
+      "relation": "eq"
+    },
+    "max_score": 1.0,
+    "hits": [
+      {
+        "_index": "nextcloud",
+        "_id": "files:248",
+        "_score": 1.0,
+        "_ignored": [
+          "content.keyword"
+        ],
+        "_source": {
+          "owner": "admin",
+          "groups": [],
+          "circles": [],
+          "metatags": [
+            "files_local"
+          ],
+          "source": "files_local",
+          "title": "test/dashboard-flow-catalog.png",
+          "users": [],
+          "content": "EDC Connector Dashboard                                                                                                                                                                      G English\n\nデータ交換フロー: Consumer — Provider\n\n© カタログ取得       オファー選択       契約交渉       デークタ転送       データ取得\nProviderからカタログを取得\n\nカタログ取得\n\n製品データ\n\nアセットID: product-data\n説明: サンプル製品情報API",
+          "tags": [],
+          "attachment": {
+            "content_type": "text/plain; charset=UTF-8",
+            "language": "lt",
+            "content_length": 360
+          },
+          "provider": "files",
+          "subtags": [],
+          "parts": {
+            "comments": ""
+          },
+          "links": [],
+          "share_names": {
+            "admin": "test/dashboard-flow-catalog.png"
+          },
+          "lastModified": 1768962942,
+          "hash": "43b94eb4a60d88bee39ad2a3e709ea9c"
+        }
+      },
+      {
+        "_index": "nextcloud",
+        "_id": "files:202",
+        "_score": 1.0,
+        "_source": {
+          "share_names": {
+            "admin": ""
+          },
+          "owner": "admin",
+          "users": [],
+          "groups": [],
+          "circles": [],
+          "links": [],
+          "metatags": [
+            "files_local"
+          ],
+          "subtags": [],
+          "tags": [],
+          "hash": "",
+          "provider": "files",
+          "lastModified": 1768980008,
+          "source": "files_local",
+          "title": "",
+          "parts": [],
+          "content": ""
+        }
+      },
+      {
+        "_index": "nextcloud",
+        "_id": "files:200",
+        "_score": 1.0,
+        "_source": {
+          "share_names": {
+            "admin": ""
+          },
+          "owner": "admin",
+          "users": [],
+          "groups": [],
+          "circles": [],
+          "links": [],
+          "metatags": [
+            "files_local"
+          ],
+          "subtags": [],
+          "tags": [],
+          "hash": "",
+          "provider": "files",
+          "lastModified": 1768980008,
+          "source": "files_local",
+          "title": "",
+          "parts": [],
+          "content": ""
+        }
+      },
+      {
+        "_index": "nextcloud",
+        "_id": "files:219",
+        "_score": 1.0,
+        "_source": {
+          "share_names": {
+            "admin": "test/スクリーンショット 2026-01-21 11.34.54.png"
+          },
+          "owner": "admin",
+          "users": [],
+          "groups": [],
+          "circles": [],
+          "links": [],
+          "metatags": [
+            "files_local"
+          ],
+          "subtags": [],
+          "tags": [],
+          "hash": "",
+          "provider": "files",
+          "lastModified": 1768962895,
+          "source": "files_local",
+          "title": "test/スクリーンショット 2026-01-21 11.34.54.png",
+          "parts": {
+            "comments": ""
+          },
+          "content": ""
+        }
+      },
+      {
+        "_index": "nextcloud",
+        "_id": "files:260",
+        "_score": 1.0,
+        "_ignored": [
+          "content.keyword"
+        ],
+        "_source": {
+          "owner": "admin",
+          "groups": [],
+          "circles": [],
+          "metatags": [
+            "files_local"
+          ],
+          "source": "files_local",
+          "title": "test/dashboard-flow-transfer.png",
+          "users": [],
+          "content": "EDC Connector Dashboard                                                                                                                                                                      G English\n\nデータ交換フロー: Consumer — Provider\n\n0 カタログ取得 — 才議 オファー選択 — O zee — Or-csee — Or-one\n\nProviderからカタログを取得                                                          データ転送を開始\n転送タイプ\n製品データ                                              |  HTTP Pull (Consumerが取得)             ン\n\nアセットID: product-data\n\n説明: サンプル製品情報API\n                                                                        キャンセル",
+          "tags": [],
+          "attachment": {
+            "content_type": "text/plain; charset=UTF-8",
+            "language": "lt",
+            "content_length": 579
+          },
+          "provider": "files",
+          "subtags": [],
+          "parts": {
+            "comments": ""
+          },
+          "links": [],
+          "share_names": {
+            "admin": "test/dashboard-flow-transfer.png"
+          },
+          "lastModified": 1768962942,
+          "hash": "ad5c2257011605eb4ebed50dac023924"
+        }
+      },
+      {
+        "_index": "nextcloud",
+        "_id": "files:6",
+        "_score": 1.0,
+        "_ignored": [
+          "content.keyword"
+        ],
+        "_source": {
+          "owner": "admin",
+          "groups": [],
+          "circles": [],
+          "metatags": [
+            "files_local"
+          ],
+          "source": "files_local",
+          "title": "Documents/Example.md",
+          "users": [],
+          "content": "# Nextcloud Hub\n\n**Welcome to Nextcloud Hub, your self-hosted collaboration solution.**\n\nNextcloud Hub is the open source file sync and share software for everyone from individuals to large enterprises and service providers. Nextcloud provides a safe, secure and compliant file sync and share solution on servers you control.\n\nWith Nextcloud Hub you can:\n- Sync and share and access all your files and documents from all your devices\n- Communicate with other via chat, audio or video calls\n- Access, manage and share your calendars\n- View and share you photos and media files\n- Access your emails\n- Access, manage and share your contacts\n- Edit your documents collaboratively\n\nYou can do all of this in the web interface, via you desktop or your Android and iOS devices.\nWhether using a mobile device, a workstation, or a web client, Nextcloud provides the ability to put the right files in the right hands at the right time on any device in one simple-to-use, secure, private and controlled solution.\n\n_All example pictures, videos & documents are licensed under Creative Commons Attribution._",
+          "tags": [],
+          "attachment": {
+            "content_type": "text/plain; charset=ISO-8859-1",
+            "language": "en",
+            "content_length": 1096
+          },
+          "provider": "files",
+          "subtags": [],
+          "parts": {
+            "comments": ""
+          },
+          "links": [],
+          "share_names": {
+            "admin": "Documents/Example.md"
+          },
+          "lastModified": 1768978731,
+          "hash": "953e29b40d007f628fed32670265ae22"
+        }
+      },
+      {
+        "_index": "nextcloud",
+        "_id": "files:5",
+        "_score": 1.0,
+        "_ignored": [
+          "content.keyword"
+        ],
+        "_source": {
+          "owner": "admin",
+          "groups": [],
+          "circles": [],
+          "metatags": [
+            "files_local"
+          ],
+          "source": "files_local",
+          "title": "Documents/Nextcloud flyer.pdf",
+          "users": [],
+          "content": "A safe home \nfor all your data\nAccess, share and protect your files, calendars, \ncontacts, communication and more at home and in \nyour enterprise\n\nnextcloud.com\n\nhttp://nextcloud.com\n\n\nSelf-hosted, open file sync and communication app platform\n\nNextcloud is the next generation open source, self-hosted, enterprise-ready file access and \ncommunication platform. Access and sync your files, contacts, calendars and communicate \nand collaborate across your devices. You decide what happens with your data, where it is \nand who can access it! Nextcloud puts you back in control.\n\nEasy access\nUsers gain access to their documents \nand can collaborate with others within \nand outside their organization, assisted \nby audio/video chat, calendar & mail and \nplanning and coordination tools. Nextcloud \noffers an easy to use web interface or clients \nfor Windows, Mac, Linux, Android and iOS \nand its capabilities can be extended from \nan ecosystem of hundreds of apps.\n\nSeamless integration\nNextcloud easily integrates into existing \ninfrastructure with LDAP, SAML or Kerberos \nand its universal file access feature makes \ndata available to users irrespective of where \nit is stored, be it on a local NAS, a remote \nFTP, Samba, NFS or object storage like S3.\n\nFirst class security\nNextcloud puts IT in control, providing \npower-ful file access control capabilities \nto ensure company policies are enforced. \nEncryption, two-factor \nauthentication, session management and \nbrute force protection enable an extra \nlayer of protection for your data. First \nclass security backed by a 10,000 USD \nsecurity bug bounty program provides the \nconfidence that data meant to be private \nwill stay private.\n\nhttps:443\nWebDAV\n\nAccess all of your data regardless\nof the device or platform you \n\nSMBNFSFTP\n\nYour data can be encrypted for \nboth local and remote \nstorage, protecting data stored \non networks outside of your \ninfrastructure.\n\nUniversal file access\n\nEmail sales@nextcloud.com \nPhone +49 711 252428-90 \n\nnextcloud.com \n \n\n    @Nextclouders\n\nGet in touch!\n\nmailto:sales%40nextcloud.com?subject=\nhttps://nextcloud.com\nhttps://twitter.com/nextclouders\nhttps://www.facebook.com/Nextclouders/",
+          "tags": [],
+          "attachment": {
+            "date": "2021-12-09T14:42:55Z",
+            "content_type": "application/pdf",
+            "format": "application/pdf; version=1.4",
+            "modified": "2021-12-09T14:42:55Z",
+            "language": "en",
+            "metadata_date": "2021-12-09T15:42:55Z",
+            "creator_tool": "Adobe InDesign 17.0 (Macintosh)",
+            "content_length": 2182
+          },
+          "provider": "files",
+          "subtags": [],
+          "parts": {
+            "comments": ""
+          },
+          "links": [],
+          "share_names": {
+            "admin": "Documents/Nextcloud flyer.pdf"
+          },
+          "lastModified": 1768978731,
+          "hash": "815cee0d50ff0ea7399bd0a6db7301c6"
+        }
+      },
+      {
+        "_index": "nextcloud",
+        "_id": "files:7",
+        "_score": 1.0,
+        "_source": {
+          "owner": "admin",
+          "groups": [],
+          "circles": [],
+          "metatags": [
+            "files_local"
+          ],
+          "source": "files_local",
+          "title": "Documents/Readme.md",
+          "users": [],
+          "content": "# Documents\n\nNextcloud works well with all the common document formats. You can even collaborate with others on ODT and Markdown files!",
+          "tags": [],
+          "attachment": {
+            "content_type": "text/plain; charset=ISO-8859-1",
+            "language": "en",
+            "content_length": 137
+          },
+          "provider": "files",
+          "subtags": [],
+          "parts": {
+            "comments": ""
+          },
+          "links": [],
+          "share_names": {
+            "admin": "Documents/Readme.md"
+          },
+          "lastModified": 1768978731,
+          "hash": "0d4ff0aa136114cf76b792939ce5fe4f"
+        }
+      },
+      {
+        "_index": "nextcloud",
+        "_id": "files:4",
+        "_score": 1.0,
+        "_ignored": [
+          "content.keyword"
+        ],
+        "_source": {
+          "owner": "admin",
+          "groups": [],
+          "circles": [],
+          "metatags": [
+            "files_local"
+          ],
+          "source": "files_local",
+          "title": "Documents/Welcome to Nextcloud Hub.docx",
+          "users": [],
+          "content": "Nextcloud Hub\n\nWelcome to Nextcloud Hub, your self-hosted collaboration platform.\n\nNextcloud Hub is the open source file share and collaboration software for everyone from individuals to large enterprises and service providers.\nNextcloud provides a safe, secure and compliant online work environment on servers you control.\n\nWith Nextcloud Hub you can:\n\n· Sync and share and access all your files and documents from all your devices\n· Communicate with other via chat, audio or video calls\n· Access, manage and share your calendars and contacts\n· Plan, schedule and manage tasks\n· View and share your photos and media files\n· Access your emails\n· Edit your documents with others, in real time\n\nYou can do all of this in the web interface, via your desktop, laptop or your Android and iOS devices.\nWhether using a mobile device, a workstation, or a web client, Nextcloud provides the ability to put the right files in the right hands at the right time on any device in one simple-to-use, secure and private solution.\n\nFor Nextcloud in mission-critical environments or at larger scale in a professional organization, we are ready to provide you with what you need for success.\nLearn more.\n\nAll example pictures, videos & documents are licensed under Creative Commons Attribution.\nimage1.png",
+          "tags": [],
+          "attachment": {
+            "date": "2013-10-05T15:32:23Z",
+            "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+            "modified": "2024-09-16T08:40:05Z",
+            "language": "en",
+            "content_length": 1290
+          },
+          "provider": "files",
+          "subtags": [],
+          "parts": {
+            "comments": ""
+          },
+          "links": [],
+          "share_names": {
+            "admin": "Documents/Welcome to Nextcloud Hub.docx"
+          },
+          "lastModified": 1768978731,
+          "hash": "88270e3f90bcdc6a5161b05b759429cd"
+        }
+      },
+      {
+        "_index": "nextcloud",
+        "_id": "files:10",
+        "_score": 1.0,
+        "_source": {
+          "share_names": {
+            "admin": "Nextcloud Manual.pdf"
+          },
+          "owner": "admin",
+          "users": [],
+          "groups": [],
+          "circles": [],
+          "links": [],
+          "metatags": [
+            "files_local"
+          ],
+          "subtags": [],
+          "tags": [],
+          "hash": "",
+          "provider": "files",
+          "lastModified": 1768978731,
+          "source": "files_local",
+          "title": "Nextcloud Manual.pdf",
+          "parts": {
+            "comments": ""
+          },
+          "content": ""
+        }
+      },
+      {
+        "_index": "nextcloud",
+        "_id": "files:69",
+        "_score": 1.0,
+        "_source": {
+          "share_names": {
+            "admin": "Nextcloud intro.mp4"
+          },
+          "owner": "admin",
+          "users": [],
+          "groups": [],
+          "circles": [],
+          "links": [],
+          "metatags": [
+            "files_local"
+          ],
+          "subtags": [],
+          "tags": [],
+          "hash": "",
+          "provider": "files",
+          "lastModified": 1768978732,
+          "source": "files_local",
+          "title": "Nextcloud intro.mp4",
+          "parts": {
+            "comments": ""
+          },
+          "content": ""
+        }
+      },
+      {
+        "_index": "nextcloud",
+        "_id": "files:57",
+        "_score": 1.0,
+        "_source": {
+          "owner": "admin",
+          "groups": [],
+          "circles": [],
+          "metatags": [
+            "files_local"
+          ],
+          "source": "files_local",
+          "title": "Nextcloud.png",
+          "users": [],
+          "content": "oOo\n\nNextcloud Hub",
+          "tags": [],
+          "attachment": {
+            "content_type": "text/plain; charset=ISO-8859-1",
+            "language": "et",
+            "content_length": 19
+          },
+          "provider": "files",
+          "subtags": [],
+          "parts": {
+            "comments": ""
+          },
+          "links": [],
+          "share_names": {
+            "admin": "Nextcloud.png"
+          },
+          "lastModified": 1768978732,
+          "hash": "c21d344d3570ad5c1f3210d1997cd223"
+        }
+      },
+      {
+        "_index": "nextcloud",
+        "_id": "files:65",
+        "_score": 1.0,
+        "_source": {
+          "share_names": {
+            "admin": "Photos/Birdie.jpg"
+          },
+          "owner": "admin",
+          "users": [],
+          "groups": [],
+          "circles": [],
+          "links": [],
+          "metatags": [
+            "files_local"
+          ],
+          "subtags": [],
+          "tags": [],
+          "hash": "",
+          "provider": "files",
+          "lastModified": 1768978732,
+          "source": "files_local",
+          "title": "Photos/Birdie.jpg",
+          "parts": {
+            "comments": ""
+          },
+          "content": ""
+        }
+      },
+      {
+        "_index": "nextcloud",
+        "_id": "files:62",
+        "_score": 1.0,
+        "_source": {
+          "share_names": {
+            "admin": "Photos/Frog.jpg"
+          },
+          "owner": "admin",
+          "users": [],
+          "groups": [],
+          "circles": [],
+          "links": [],
+          "metatags": [
+            "files_local"
+          ],
+          "subtags": [],
+          "tags": [],
+          "hash": "",
+          "provider": "files",
+          "lastModified": 1768978732,
+          "source": "files_local",
+          "title": "Photos/Frog.jpg",
+          "parts": {
+            "comments": ""
+          },
+          "content": ""
+        }
+      },
+      {
+        "_index": "nextcloud",
+        "_id": "files:68",
+        "_score": 1.0,
+        "_source": {
+          "owner": "admin",
+          "groups": [],
+          "circles": [],
+          "metatags": [
+            "files_local"
+          ],
+          "source": "files_local",
+          "title": "Photos/Gorilla.jpg",
+          "users": [],
+          "content": "だCWU\n>  “ ES LAM\n\nfs    ~s         so   he we   ‘\n\nty",
+          "tags": [],
+          "attachment": {
+            "content_type": "text/plain; charset=UTF-8",
+            "language": "ca",
+            "content_length": 54
+          },
+          "provider": "files",
+          "subtags": [],
+          "parts": {
+            "comments": ""
+          },
+          "links": [],
+          "share_names": {
+            "admin": "Photos/Gorilla.jpg"
+          },
+          "lastModified": 1768978732,
+          "hash": "a6b2d4b2d955d01d2116396d528f5d09"
+        }
+      },
+      {
+        "_index": "nextcloud",
+        "_id": "files:61",
+        "_score": 1.0,
+        "_source": {
+          "owner": "admin",
+          "groups": [],
+          "circles": [],
+          "metatags": [
+            "files_local"
+          ],
+          "source": "files_local",
+          "title": "Photos/Library.jpg",
+          "users": [],
+          "content": "Seer:\neee oo ra aT a\n\nmW\n\nWW\n\nae    aire        wl     Fenn  a NE Ba |\nMW    DU   イー\nーーンプ              |       ン           Weし\n\nSd\nSSS         =\nNN",
+          "tags": [],
+          "attachment": {
+            "content_type": "text/plain; charset=UTF-8",
+            "language": "hu",
+            "content_length": 148
+          },
+          "provider": "files",
+          "subtags": [],
+          "parts": {
+            "comments": ""
+          },
+          "links": [],
+          "share_names": {
+            "admin": "Photos/Library.jpg"
+          },
+          "lastModified": 1768978732,
+          "hash": "514debb4bcd3d2f2e192c822aff95833"
+        }
+      },
+      {
+        "_index": "nextcloud",
+        "_id": "files:63",
+        "_score": 1.0,
+        "_source": {
+          "share_names": {
+            "admin": "Photos/Nextcloud community.jpg"
+          },
+          "owner": "admin",
+          "users": [],
+          "groups": [],
+          "circles": [],
+          "links": [],
+          "metatags": [
+            "files_local"
+          ],
+          "subtags": [],
+          "tags": [],
+          "hash": "",
+          "provider": "files",
+          "lastModified": 1768978732,
+          "source": "files_local",
+          "title": "Photos/Nextcloud community.jpg",
+          "parts": {
+            "comments": ""
+          },
+          "content": ""
+        }
+      },
+      {
+        "_index": "nextcloud",
+        "_id": "files:67",
+        "_score": 1.0,
+        "_source": {
+          "owner": "admin",
+          "groups": [],
+          "circles": [],
+          "metatags": [
+            "files_local"
+          ],
+          "source": "files_local",
+          "title": "Photos/Readme.md",
+          "users": [],
+          "content": "# Photos\n\nSome nice example photos, licensed under Creative Commons Attribution. Try switching to grid view or open them in the brand new Photos app!",
+          "tags": [],
+          "attachment": {
+            "content_type": "text/plain; charset=ISO-8859-1",
+            "language": "en",
+            "content_length": 151
+          },
+          "provider": "files",
+          "subtags": [],
+          "parts": {
+            "comments": ""
+          },
+          "links": [],
+          "share_names": {
+            "admin": "Photos/Readme.md"
+          },
+          "lastModified": 1768978732,
+          "hash": "23c6c7ef367ee812100779d2bbb2e873"
+        }
+      },
+      {
+        "_index": "nextcloud",
+        "_id": "files:60",
+        "_score": 1.0,
+        "_source": {
+          "share_names": {
+            "admin": "Photos/Steps.jpg"
+          },
+          "owner": "admin",
+          "users": [],
+          "groups": [],
+          "circles": [],
+          "links": [],
+          "metatags": [
+            "files_local"
+          ],
+          "subtags": [],
+          "tags": [],
+          "hash": "",
+          "provider": "files",
+          "lastModified": 1768978732,
+          "source": "files_local",
+          "title": "Photos/Steps.jpg",
+          "parts": {
+            "comments": ""
+          },
+          "content": ""
+        }
+      },
+      {
+        "_index": "nextcloud",
+        "_id": "files:64",
+        "_score": 1.0,
+        "_source": {
+          "share_names": {
+            "admin": "Photos/Toucan.jpg"
+          },
+          "owner": "admin",
+          "users": [],
+          "groups": [],
+          "circles": [],
+          "links": [],
+          "metatags": [
+            "files_local"
+          ],
+          "subtags": [],
+          "tags": [],
+          "hash": "",
+          "provider": "files",
+          "lastModified": 1768978732,
+          "source": "files_local",
+          "title": "Photos/Toucan.jpg",
+          "parts": {
+            "comments": ""
+          },
+          "content": ""
+        }
+      },
+      {
+        "_index": "nextcloud",
+        "_id": "files:66",
+        "_score": 1.0,
+        "_source": {
+          "share_names": {
+            "admin": "Photos/Vineyard.jpg"
+          },
+          "owner": "admin",
+          "users": [],
+          "groups": [],
+          "circles": [],
+          "links": [],
+          "metatags": [
+            "files_local"
+          ],
+          "subtags": [],
+          "tags": [],
+          "hash": "",
+          "provider": "files",
+          "lastModified": 1768978732,
+          "source": "files_local",
+          "title": "Photos/Vineyard.jpg",
+          "parts": {
+            "comments": ""
+          },
+          "content": ""
+        }
+      },
+      {
+        "_index": "nextcloud",
+        "_id": "files:58",
+        "_score": 1.0,
+        "_source": {
+          "owner": "admin",
+          "groups": [],
+          "circles": [],
+          "metatags": [
+            "files_local"
+          ],
+          "source": "files_local",
+          "title": "Readme.md",
+          "users": [],
+          "content": "# Welcome to Nextcloud! ☁️\n\nHere you can add a description or any other info relevant for the folder. It will show as a \"Readme.md\" and in the web interface also embedded nicely up at the top.",
+          "tags": [],
+          "attachment": {
+            "content_type": "text/plain; charset=UTF-8",
+            "language": "en",
+            "content_length": 194
+          },
+          "provider": "files",
+          "subtags": [],
+          "parts": {
+            "comments": ""
+          },
+          "links": [],
+          "share_names": {
+            "admin": "Readme.md"
+          },
+          "lastModified": 1768978732,
+          "hash": "51dbb73f0e39d32a677209296e7c5e83"
+        }
+      },
+      {
+        "_index": "nextcloud",
+        "_id": "files:9",
+        "_score": 1.0,
+        "_ignored": [
+          "content.keyword"
+        ],
+        "_source": {
+          "owner": "admin",
+          "groups": [],
+          "circles": [],
+          "metatags": [
+            "files_local"
+          ],
+          "source": "files_local",
+          "title": "Reasons to use Nextcloud.pdf",
+          "users": [],
+          "content": "Nextcloud Hub \nA complete open source enterprise platform \nfor online collaboration and communication \n\n\n\n2 3 \n\n ✓ \n\n✓ \n\n✓ \n\n✓ \n\n✓ \n\nExecutive summary \n\nModern organizations need to provide tools for remote and off-premises \n\ncollaboration. Nextcloud offers a best-in-class platform for sharing, \n\ncommunication, and organization of work. Deep integration in existing  \n\ninfrastructure enables quick deployment and its accessible interface facilitates \n\nfast and wide adoption in the organization. \n\nKey features \n\n• Extensive document sharing  \ninternally and through public links \nwith web and mobile interfaces \n\n• Built in audio/video chat with mobile \napps \n\n• Real time collaborative office \ndocument editing, in browser and \nmobile apps \n\n• Calendar, mailing, task management \nand contacts handling built in \n\n• Access existing storage silos like FTP, \nWindows Network Drives, SharePoint, \nObject Storage and Samba shares \nseamlessly through Nextcloud \n\n• Manage users locally or authenticate \nthrough LDAP / Active Directory,  \nKerberos and Shibboleth / SAML 2.0 \nand more \n\n• Secure data with powerful file access \ncontrol, multi layer encryption, \nmachine learning based \nauthentication protection and  \nadvanced ransomware recovery  \ncapabilities \n\n• Enable users to automate repetitive \ntasks and optimize business  \nprocesses with Flow \n\n• Extend Nextcloud further with a wide \nvariety of apps on our app store or \nbuild your own \n\n  Hosted on-premises\n\n  100% open source\n\n  Very easy to use\n\n  Integration in infrastructure\n\n  Security and encryption \n\nWhy Nextcloud Hub \n\n\n\n4 \n\n5 \n\n \n\noQo \n\nD \n\n0 \n\nNextcloud Files \nFile Sync and Share \n\nNextcloud Files offers universal file access on desktop, \n\nmobile, and web. Find files with powerful search, share \n\nyour thoughts in comments or lock files until you are \n\ndone with them. \n\nEasy access anywhere \n\n• A modern and easy-to-use web interface, desktop clients and mobile apps \n\n• Real-time collaboration and instant access to all data from any device, anywhere! \n\n• Ultimate security \n\n• Powerful encryption capabilities and a built-in rule-based File Access Control \n\n• Complemented by strong password policies, brute-force protection, ransomware protection \nand more \n\nDeep integration \n\n• Access data from FTP, Windows Network Drive, SharePoint, NFS, Object storage, etc. \n\n• Simple configuration and integration of lower costs and decrease risk while leveraging \n\n      existing IT investments \n\nSeamless collaboration \n\n• The core strength of Nextcloud is its ability to enhance team productivity on the go \n\n• Easy user interface on mobile, web and desktop and powerful integrated document  \ncollaboration and communication capabilities \n\n• Real-time notifications of shares or comments on mobile devices, built-in collaborative editing \nof Microsoft Office compatible files \n\n• Seamless transition to chat and audio/video calls and a wide variety of productivity tools to  \nhandle mail, appointments, tasks and more are available in Nextcloud \n\n\n\n6 7 \n\n \n\n \n\n* \n\nNextcloud Talk \nCalls, chats and web meetings \n\nUnique protection \n\n• Nextcloud Talk delivers on-premises, private audio/video conferencing and text chat through \nbrowser and mobile interfaces with integrated screen sharing and SIP integration \n\n• A fully self hosted, on-premises audio/video and chat communication service. It features web \nand mobile apps and is designed to offer the highest degree of security while being easy to use \n\n• Lowers the barrier for communications and lets your team connect anytime, anywhere, on any \ndevice, with each other, customers or partners \n\nCompliance \n\nSelf-hosting communication simplifies compliance with national and international privacy and \n\nsecurity regulations. By relying on existing, vetted infrastructure, your current compliance and \n\nsecurity processes apply to Nextcloud Talk. \n\nKey capabilities \n\n• Integration with Nextcloud Files and  \n• Fully on-premise, 100% open source \n\nGroupware Nextcloud Talk lowers the barrier for communications \n• Self-hosted so no leaking of metadata \n\n• Mobile calls & chat with push notifications and lets your team connect anytime, anywhere, on any \n• Encrypted, peer-to-peer audio/video calls \n\n• Commands to enable integration with other device, with each other, customers or partners. \ntools \n\n• WebRTC for cross-platform support \n\n• Webinars & public web meetings \n• Individual and group calls & chat \n\n• SIP gate: dial in by phone \n• Mobile apps for Android and iOS \n\n• Easy screen sharing \n\n\n\n8 \n\n9 \n\n \n\n \n\n□ \n\n0 \n\nNextcloud Groupware \nCalendar, Contacts and Mail \n\nNextcloud Groupware integrates Calendar, \n\nContacts, Mail and other productivity features \n\nto help teams get their work done faster, \n\neasier and on your terms. \n\nUltimate security  \n\n• An open-source, self-hosted product \n\n• Emails, calendars, and contacts are stored on your own infrastructure, without any third party \never gaining access \n\nEasy access, anywhere \n\n• Nextcloud Groupware integrates Calendar, Contacts, Mail and other productivity features to \nhelp teams get their work done faster, easier and on your terms \n\n• An efficient, modern and easy-to-use web interface for small or large teams \n\n• Fewer distractions and deep integration in other Nextcloud products means more productivity, \nwherever you are! \n\nDeep integration \n\n• Native integration into iOS, Android, macOS, Windows, Linux, Outlook and Thunderbird \n\n• Simple deployment, configuration, and integration of lower costs and decrease risk while \nleveraging your existing IT investments \n\n\n\n11 \n\n10 \n\n \n\n \n\nNextcloud Mail \n• Easy to use web-based email client which connects to your mail server  \n\nvia IMAP and SMTP \n\n• Multiple accounts with unified inbox \n\n• Recognizes travel itineraries and adds them to calendar \n\n• Supports end-to-end encryption using OpenPGP \n\nNextcloud Calendar \n• Schedule work and meetings online \n\n• Create and share multiple calendars \n\n• Integrate external calendar resources (WebCal) \n\n• Book resources through a busy view or plan a Talk meeting \n\n• \n\nNextcloud Contacts \n• Track birthdays of your contacts \n\n• Share your address books with your team \n\n• Sync your contacts with phones and other device \n\nNextcloud Deck \n• Create any number of private or shared Kanban-style task boards \n\n• Drag’n’drop cards, assign them to team members and set due dates \n\n• Use checklists, attach files & export boards \n\n\n\n12 \n\n13 \n\n \n\n \n\n-\noQo \n\nSecurity and Compliance \n\nNextcloud and HIPAA \n\nNextcloud meets all Technical Safeguards requirements, supporting full compliance with the Health \n\nInsurance Portability and Accountability Act (HIPAA) of 1996. Nextcloud GmbH is committed to  \n\nensure its software keeps PHI (Protected Health Information) private and secure. We have  \n\nimplemented features, policies and procedures designed to ensure compliance with Federal and \nGDPR and privacy legislation compliance \n\nState information security laws, regulations, and rules, and monitor ongoing compliance efforts. \n\nThe GDPR (General Data Protection Regulation) makes organizations liable for any violations of user \n\nprivacy and deviations from a high data security standard. Legislation like the CCPA (California  \n\nConsumer Privacy Act of 2018) brings similar regulation to other countries. The self-hosted  \n\nNextcloud solution simplifies compliance, decreasing business risk and costs. • Choosing a self-hosted product means you • Nextcloud offers everything you need for \n\ncan guarantee your customers that data GDPR compliance. Compliance is a  \n\nnever leaves your company and remains multi-step process and data can be in many \n\n100% confidential. You can run Nextcloud in locations. Our documentation helps \n\nyour own datacenter, on rented dedicated administrators check if they have covered \n\nservers or a local, trusted cloud provider to their bases and guides them through \n\nensure the right balance between control, delivering on data access, modification and \n\ncosts and flexibility. deletion requests \n\nPowerful server and client side encryption \n\noptions provide ultimate protection for \n\nsensitive documents \n\n\n\nNextcloud GmbH \nHauptmannsreute 44A \n70192 Stuttgart \nGermany \n\nEmail sales@nextcloud.com \nPhone +49 711 252 428 - 90 \nFax +49 711 252 428 - 20 \n\nnextcloud.com \n\n© Nextcloud GmbH. Subject to change without notice. \n\nmailto:sales%40nextcloud.com?subject=\nhttp://nextcloud.com\n\n\tNextcloud Hub\n\tExecutive summary \n\tFiles\n\tTalk\n\tGroupware\n\tSecurity and Compliance\n\tEnd",
+          "tags": [],
+          "attachment": {
+            "date": "2020-09-14T16:34:04Z",
+            "keywords": "Nextcloud Hub, Nextcloud, Nextcloud Files, Nextcloud Talk, Nextcloud Groupware ",
+            "author": "Nextcloud GmbH",
+            "format": "application/pdf; version=1.6",
+            "description": "Nextcloud Hub",
+            "language": "en",
+            "title": "Reasons to use Nextcloud Hub",
+            "creator_tool": "Adobe InDesign 15.0 (Macintosh)",
+            "content_type": "application/pdf",
+            "modified": "2021-04-14T13:14:09Z",
+            "metadata_date": "2021-04-14T15:14:09Z",
+            "content_length": 8494
+          },
+          "provider": "files",
+          "subtags": [],
+          "parts": {
+            "comments": ""
+          },
+          "links": [],
+          "share_names": {
+            "admin": "Reasons to use Nextcloud.pdf"
+          },
+          "lastModified": 1768978731,
+          "hash": "398d5e31efb16f37760eaf20432abdd7"
+        }
+      },
+      {
+        "_index": "nextcloud",
+        "_id": "files:8",
+        "_score": 1.0,
+        "_ignored": [
+          "content.keyword"
+        ],
+        "_source": {
+          "owner": "admin",
+          "groups": [],
+          "circles": [],
+          "metatags": [
+            "files_local"
+          ],
+          "source": "files_local",
+          "title": "Templates credits.md",
+          "users": [],
+          "content": "# Templates credits\n\nA big thank you to the open source community for all the great templates! We hope they are useful to make your work easier.\n\n## Documents\n- Invoice and Letter by [Jan C. Borchardt](https://jancborchardt.net/), CC0\n- Minimalist résumé:\n  - Created by [Benjamin Peng](https://extensions.libreoffice.org/en/extensions/show/5069), CC0\n  - Refreshed by [Jo Myoung Hee](https://www.myoungheejo.com/), CC0\n- Basic syllabus:\n  - Created by [Benjamin Peng](https://extensions.libreoffice.org/en/extensions/show/5070), CC0\n  - Refreshed by [Jo Myoung Hee](https://www.myoungheejo.com/), CC0\n- Party invitation:\n  - [Cakes sprinkles by Brooke Lark](https://stocksnap.io/photo/cakes-sprinkles-QQ2WDV12LM), CC0\n  - Layout & text by [Jan C. Borchardt](https://jancborchardt.net/), CC0\n- Mother’s day:\n  - [Flower Blossom by Kelly Ishmael](https://stocksnap.io/photo/flower-blossom-L6SM8QYYHI), CC0\n  - Layout & text by [Jan C. Borchardt](https://jancborchardt.net/), CC0\n- Photo book\n  - [Diving snorkel by Aleksei Bakulin](https://stocksnap.io/photo/diving-snorkel-ELADKTWHHU), CC0\n  - [Ocean wave by Altered Reality](https://stocksnap.io/photo/ocean-wave-VFAMQON3ZP), CC0\n  - [Travel ocean by Altered Reality](https://stocksnap.io/photo/travel-ocean-VROFJZ1RUP), CC0\n  - [Ocean waves by JJ Skys the Limit](https://stocksnap.io/photo/ocean-waves-KGRO3GY1DL), CC0\n  - Layout by [Jan C. Borchardt](https://jancborchardt.net/), CC0\n- Calendar, Certificate, Menu, and Report by [Jo Myoung Hee](https://www.myoungheejo.com/), CC0\n\n## Spreadsheets\n- Expense report:\n  - Created by [Jan C. Borchardt](https://jancborchardt.net/), CC0\n  - Refreshed by [Jo Myoung Hee](https://www.myoungheejo.com/), CC0\n- Diagram & table by [Jan C. Borchardt](https://jancborchardt.net/), CC0\n- Timesheet:\n  - Created by [Rudolf Braumann](https://extensions.libreoffice.org/en/extensions/show/880) (translated to English by [Jan C. Borchardt](https://jancborchardt.net/)), GNU LGPL\n  - Refreshed by [Jo Myoung Hee](https://www.myoungheejo.com/), CC0\n- Checklist and Invoice by [Jo Myoung Hee](https://www.myoungheejo.com/), CC0\n- Business model canvas refreshed by [Jo Myoung Hee](https://www.myoungheejo.com/), CC0\n\n## Presentations\n- Elegant and Simple by [Jan C. Borchardt](https://jancborchardt.net/), CC0\n- [Modern company by Hervy Qurrotul Ainur Rozi](https://extensions.libreoffice.org/en/extensions/show/5075) (originally \"ZamZam\"), CC0\n- [Gotong royong by Rania Amina](https://lumbung.gimpscape.org/libreoffice/gotong-royong-by-rania-amina/), CC-BY-SA 4.0\n- [Yellow idea by Dwi Alita](https://lumbung.gimpscape.org/libreoffice/yellow-idea-by-dwi-alita/), CC-BY-SA 4.0\n- Ecosystem, Nostalgia, Onboarding, Pitch deck, Security, and Triangle by [Jo Myoung Hee](https://www.myoungheejo.com/), CC0\n\n## Text / Markdown files\n- Product plan, Meeting notes, and Readme by [Jan C. Borchardt](https://jancborchardt.net/), CC0\n\n## Draw documents\n- [Org chart, Mindmap, Business model canvas, and Flowchart by Draw.io](https://www.drawio.com/example-diagrams), Apache 2.0\n\n## Whiteboards\n- Impact effort matrix and SWOT analysis by [Jan C. Borchardt](https://jancborchardt.net/), CC0",
+          "tags": [],
+          "attachment": {
+            "content_type": "text/plain; charset=UTF-8",
+            "language": "lt",
+            "content_length": 3165
+          },
+          "provider": "files",
+          "subtags": [],
+          "parts": {
+            "comments": ""
+          },
+          "links": [],
+          "share_names": {
+            "admin": "Templates credits.md"
+          },
+          "lastModified": 1768978731,
+          "hash": "da0449f5d50b005d8b5a3b3120e78528"
+        }
+      },
+      {
+        "_index": "nextcloud",
+        "_id": "files:53",
+        "_score": 1.0,
+        "_source": {
+          "share_names": {
+            "admin": "テンプレート/Brainstorming.whiteboard"
+          },
+          "owner": "admin",
+          "users": [],
+          "groups": [],
+          "circles": [],
+          "links": [],
+          "metatags": [
+            "files_local"
+          ],
+          "subtags": [],
+          "tags": [],
+          "hash": "",
+          "provider": "files",
+          "lastModified": 1768978732,
+          "source": "files_local",
+          "title": "テンプレート/Brainstorming.whiteboard",
+          "parts": {
+            "comments": ""
+          },
+          "content": ""
+        }
+      },
+      {
+        "_index": "nextcloud",
+        "_id": "files:55",
+        "_score": 1.0,
+        "_ignored": [
+          "content.keyword"
+        ],
+        "_source": {
+          "owner": "admin",
+          "groups": [],
+          "circles": [],
+          "metatags": [
+            "files_local"
+          ],
+          "source": "files_local",
+          "title": "テンプレート/Business model canvas.odg",
+          "users": [],
+          "content": "Customer Relationships\n\nWhat type of relationship does each of our Customer Segments expect us to establish and maintain with them?\nWhich ones have we established?\nHow are they integrated with the rest of our business model?\nHow costly are they?\n\nExamples\nPersonal assistance\nDedicated Personal\nAssistance Self-Service\nAutomated Services\nCommunities\nCo-creation\n\n\n\nKey Partners\n\nWho are our Key Partners?\nWho are our key suppliers?\nWhich Key Resources are we acquiring from partners?\n\nMotivations for partnerships\nOptimization and economy\nReduction of risk and uncertainty\nAcquisition of particular resources and activities\n\n\n\nKey Activities\n\nWhat Key Activities do our Value Propositions require?\nOur Distribution Channels?\nCustomer Relationships?\nRevenue streams?\n\nCategories\nProduction\nProblem Solving\nPlatform/Network\n\n\n\nKey Resources\n\nWhat Key Resources do our Value Propositions require?\nOur Distribution Channels?\nCustomer Relationships?\nRevenue Streams?\n\nTypes of resources\nPhysical\nIntellectual (brand patents, copyrights, data)\nHuman\nFinancial\n\n\n\nValue Propositions\n\n\nWhat value do we deliver to the customer?\nWhich one of our customer’s problems are we helping to solve?\nWhat bundles of products and services are we offering to each Customer Segment?\nWhich customer needs are we satisfying?\n\nCharacteristics\nNewness\nPerformance\nCustomization\n“Getting the Job Done”\nDesign\nBrand/Status\nPrice\nCost Reduction\nRisk Reduction\nAccessibility\nConvenience/Usability\n\n\n\n\n\nCustomer Segments\n\nFor whom are we creating value?\nWho are our most important customers?\n\nMass Market\nNiche Market\nSegmented\nDiversified\nMulti-sided Platform\n\n\n\nChannels\n\nThrough which Channels do our Customer Segments want to be reached?\nHow are we reaching them now?\nHow are our Channels integrated?\nWhich ones work best?\nWhich ones are most cost-efficient?\nHow are we integrating them with customer routines?\n\nChannel phases\n1. Awareness\n    How do we raise awareness about our company’s products and services?\n2. Evaluation\n    How do we help customers evaluate our organization’s Value Proposition?\n3. Purchase\n    How do we allow customers to purchase specific products and services?\n4. Delivery\n    How do we deliver a Value Proposition to customers?\n5. After sales\n    How do we provide post-purchase customer support?\n\n\n\n\n\nCost Structure\n\nWhat are the most important costs inherent in our business model?\nWhich Key Resources are most expensive?\nWhich Key Activities are most expensive?\n\nIs your business more\nCost Driven (leanest cost structure, low price value proposition, maximum automation, extensive outsourcing)\nValue Driven ( focused on value creation, premium value proposition)\n\n\nSample characteristics\nFixed Costs (salaries, rents, utilities)\nVariable costs\nEconomies of scale\nEconomies of scope\n\n\n\nRevenue Streams\n\nFor what value are our customers really willing to pay?\nFor what do they currently pay?\nHow are they currently paying?\nHow would they prefer to pay?\nHow much does each Revenue Stream contribute to overall revenues?\n\nThe Business Model Canvas\n\n\n\n\nDynamic pricing\nNegotiation(bargaining)\nYield Management\nReal-time-Market\n\nFixed pricing\nList Price\nProduct feature dependent\nCustomer segment dependent\nVolume dependent\n\nTypes\nAsset sale\nUsage fee\nSubscription Fees\nLending/Renting/Leasing\nLicensing\nBrokerage fees\nAdvertising",
+          "tags": [],
+          "attachment": {
+            "content_type": "application/vnd.oasis.opendocument.graphics",
+            "modified": "2022-04-19T11:37:08.903293789",
+            "language": "en",
+            "title": "en-US",
+            "content_length": 3343
+          },
+          "provider": "files",
+          "subtags": [],
+          "parts": {
+            "comments": ""
+          },
+          "links": [],
+          "share_names": {
+            "admin": "テンプレート/Business model canvas.odg"
+          },
+          "lastModified": 1768978732,
+          "hash": "29175bffd69554cbac4ae01fb217e60e"
+        }
+      },
+      {
+        "_index": "nextcloud",
+        "_id": "files:43",
+        "_score": 1.0,
+        "_ignored": [
+          "content.keyword"
+        ],
+        "_source": {
+          "owner": "admin",
+          "groups": [],
+          "circles": [],
+          "metatags": [
+            "files_local"
+          ],
+          "source": "files_local",
+          "title": "テンプレート/Business model canvas.ods",
+          "users": [],
+          "content": "???\nStran \n??? (???)\n00/00/0000, 00:00:00\nPage  / \n\tThe Business Model Canvas\n\t\tVersion: 07/08/2025 Project name:\n\t\tAuthors:\n\t\n\t\t\t\t\n\tKey Partners \n\n\t\tKey Actions\n\n\t\tValue Propositions\n\n\t\tCustomer Relationships\n\n\t\tCustomer Segments\n\n\t\n\tWho are our Key Partners?\n\nWho are our key suppliers?\n\nWhat are we getting from them? Giving them?\n\t\tWhat key activities do we require?\n\nManufacturing?\n\nSoftware?\n\nSupplay chain?\n\t\tWhich of our customer’s problems are we helping to solve?\n\nWhich customer needs are we satisfying?\n\nWhat are the key features of our product that match customer problem/need?\n\t\tHow will we get, keep and grow customers?\n\t\tWho are our most important customers?\n\nWhat are their archetypes?\n\nWhat job do they want us to get done for them?\n\t\n\t\t\t\t\n\t\tKey Resources\n\n\t\tRevenue Streams\n\n\t\n\t\t\tWhat key resources do we requere?\n\nFinancial?\n\nPhysical?\n\nIintellectual property?\n\nHuman resources?\n\t\tHow do we make money?\n\nWhat’s the revenue model?\n\nPricing tactics?\n\t\n\t\t\t\t\n\tCost Structure\n\n\t\tChannels\n\n\t\t\t\n\tWhat are the most important cost inherent in our musiness model?\n\nFixed?\n\nVariable?\n\t\tThrough which channels do our customer segnets want to be reached?\n\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\n\t\n\t\n\n \n  \n   \n     \n      .st0 {\n        fill: #fff;\n      }\n    \n  \n   \n\n\n \n  \n   \n     \n      .st0 {\n        fill: #fff;\n      }\n    \n  \n   \n\n\n \n  \n   \n     \n      .st0 {\n        fill: #fff;\n      }\n    \n  \n   \n\n\n \n  \n   \n     \n      .st0 {\n        fill: #fff;\n      }\n    \n  \n   \n\n\n \n  \n   \n     \n      .st0 {\n        fill: #fff;\n      }\n    \n  \n   \n\n\n \n  \n   \n     \n      .st0 {\n        fill: #fff;\n      }\n    \n  \n   \n\n\n \n  \n   \n     \n      .st0 {\n        fill: #fff;\n      }\n    \n  \n   \n\n\n \n  \n   \n     \n      .st0 {\n        fill: #fff;\n      }\n    \n  \n   \n\n\n \n  \n   \n     \n      .st0 {\n        fill: #fff;\n      }",
+          "tags": [],
+          "attachment": {
+            "date": "2023-05-12T11:40:58.668519446",
+            "content_type": "application/vnd.oasis.opendocument.spreadsheet",
+            "modified": "2025-08-07T15:44:05.348461075",
+            "language": "en",
+            "content_length": 1814
+          },
+          "provider": "files",
+          "subtags": [],
+          "parts": {
+            "comments": ""
+          },
+          "links": [],
+          "share_names": {
+            "admin": "テンプレート/Business model canvas.ods"
+          },
+          "lastModified": 1768978732,
+          "hash": "7e78c7bedc40d3b335c14ebf41eda744"
+        }
+      },
+      {
+        "_index": "nextcloud",
+        "_id": "files:48",
+        "_score": 1.0,
+        "_source": {
+          "share_names": {
+            "admin": "テンプレート/Business model canvas.whiteboard"
+          },
+          "owner": "admin",
+          "users": [],
+          "groups": [],
+          "circles": [],
+          "links": [],
+          "metatags": [
+            "files_local"
+          ],
+          "subtags": [],
+          "tags": [],
+          "hash": "",
+          "provider": "files",
+          "lastModified": 1768978732,
+          "source": "files_local",
+          "title": "テンプレート/Business model canvas.whiteboard",
+          "parts": {
+            "comments": ""
+          },
+          "content": ""
+        }
+      },
+      {
+        "_index": "nextcloud",
+        "_id": "files:25",
+        "_score": 1.0,
+        "_source": {
+          "owner": "admin",
+          "groups": [],
+          "circles": [],
+          "metatags": [
+            "files_local"
+          ],
+          "source": "files_local",
+          "title": "テンプレート/Calendar.odt",
+          "users": [],
+          "content": "20XX\nJANUARY\n\n\tSUN\n\tMON\n\tTUE\n\tWED\n\tTHU\n\tFRI\n\tSAT\n\n\t\n\t\n\t\n\t\n\t\n\t\n\t01\nX Day  \n\n\t02\n\n\t03\n\t04\n\t05\n\t06\n\t07\n\t08\n\n\n\t09\n\n\t10\n\t11\n\t12\n\t13\nBirthday  \n\t14\n\t15\n\n\n\t16\n\n\t17\n\t18\nPublic Holiday\n\t19\n\t20\n\t21\n\t22\n\n\n\t23\n\n\t24\n\t25\n\t26\n\t27\n\t28\n\t29\n\n\n\t30\n\n\t31",
+          "tags": [],
+          "attachment": {
+            "date": "2025-08-21T08:30:00Z",
+            "content_type": "application/vnd.oasis.opendocument.text",
+            "author": "Alexandra Boehm",
+            "modified": "2025-08-21T08:57:14.680166190",
+            "language": "et",
+            "content_length": 248
+          },
+          "provider": "files",
+          "subtags": [],
+          "parts": {
+            "comments": ""
+          },
+          "links": [],
+          "share_names": {
+            "admin": "テンプレート/Calendar.odt"
+          },
+          "lastModified": 1768978731,
+          "hash": "696cf7a8cf7238c2ae6ae14cf398063e"
+        }
+      },
+      {
+        "_index": "nextcloud",
+        "_id": "files:33",
+        "_score": 1.0,
+        "_source": {
+          "owner": "admin",
+          "groups": [],
+          "circles": [],
+          "metatags": [
+            "files_local"
+          ],
+          "source": "files_local",
+          "title": "テンプレート/Certificate.odt",
+          "users": [],
+          "content": "CERTIFICATE OF COMPLETION\n\nThis Certificate is awarded to\n\n\n  Full Name\n\n\nUpon completion of their\n\nADVANCED TEACHER TRAINING COURSE\n\n\n  Signed by\t\t\t\t\tDate awarded: \n15th July 20XX",
+          "tags": [],
+          "attachment": {
+            "date": "2025-08-21T09:30:00Z",
+            "content_type": "application/vnd.oasis.opendocument.text",
+            "modified": "2025-08-21T10:04:45.342508462",
+            "language": "en",
+            "content_length": 183
+          },
+          "provider": "files",
+          "subtags": [],
+          "parts": {
+            "comments": ""
+          },
+          "links": [],
+          "share_names": {
+            "admin": "テンプレート/Certificate.odt"
+          },
+          "lastModified": 1768978731,
+          "hash": "16f297b1408cf838ff02538a1158b5c0"
+        }
+      },
+      {
+        "_index": "nextcloud",
+        "_id": "files:16",
+        "_score": 1.0,
+        "_ignored": [
+          "content.keyword"
+        ],
+        "_source": {
+          "owner": "admin",
+          "groups": [],
+          "circles": [],
+          "metatags": [
+            "files_local"
+          ],
+          "source": "files_local",
+          "title": "テンプレート/Checklist.ods",
+          "users": [],
+          "content": "???\nPage \n??? (???)\n00/00/0000, 00:00:00\nPage  / \n\t\t\t\t\t\n\t\tChecklist\n\t\t\n\t\t\t\t\t\n\t\tTYPE:\n\tType of Inspection\n\tOWNER NAME:\n\t\t\t\n\t\t\t\t\t\n\t\tINSPECTOR NAME:\n\t\tADDRESS:\n\t#N/A\n\t\t\n\t\t\t\t\t\n\t\tCATEGORY 1\n\tNO\n\tYES\n\t\t\n\t\tLorem ipsum dolor sit amet, consectetur adipiscing?\n\t✔\n\t\t\t\n\t\tLorem ipsum dolor sit amet, consectetur adipiscing?\n\t\t✔\n\t\t\n\t\tLorem ipsum dolor sit amet, consectetur adipiscing?\n\t\t\t\n\t\tLorem ipsum dolor sit amet, consectetur adipiscing?\n\t\t\t\n\t\tLorem ipsum dolor sit amet, consectetur adipiscing?\n\t\t\t\n\t\t\t\t\t\n\t\tCATEGORY 2\n\tNO\n\tYES\n\t\t\n\t\tLorem ipsum dolor sit amet, consectetur adipiscing?\n\t\t\t\n\t\tLorem ipsum dolor sit amet, consectetur adipiscing?\n\t\t\t\n\t\tLorem ipsum dolor sit amet, consectetur adipiscing?\n\t\t\t\n\t\tLorem ipsum dolor sit amet, consectetur adipiscing?\n\t\t\t\n\t\tLorem ipsum dolor sit amet, consectetur adipiscing?\n\t\t\t\n\t\tLorem ipsum dolor sit amet, consectetur adipiscing?\n\t\t\t\n\t\t\t\t\t\n\t\tCATEGORY 3\n\tNO\n\tYES\n\t\t\n\t\tLorem ipsum dolor sit amet, consectetur adipiscing?\n\t\t\t\n\t\tLorem ipsum dolor sit amet, consectetur adipiscing?\n\t\t\t\n\t\tLorem ipsum dolor sit amet, consectetur adipiscing?\n\t\t\t\n\t\tLorem ipsum dolor sit amet, consectetur adipiscing?\n\t\t\t\n\t\t\t\t\t\n\t\tCATEGORY 4\n\tNO\n\tYES\n\t\t\n\t\tLorem ipsum dolor sit amet, consectetur adipiscing?\n\t\t\t\n\t\tLorem ipsum dolor sit amet, consectetur adipiscing?\n\t\t\t\n\t\tLorem ipsum dolor sit amet, consectetur adipiscing?\n\t\t\t\n\t\t\t\t\t\n\t\tCATEGORY 5\n\tNO\n\tYES\n\t\t\n\t\tLorem ipsum dolor sit amet, consectetur adipiscing?\n\t\t\t\n\t\tLorem ipsum dolor sit amet, consectetur adipiscing?\n\t\t\t\n\t\t\t\t\t\n\t\tNOTE 1:\n\tNOTE 2:\n\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\t\n\n\t\t\t\n\t\tOwner Information\n\t\n\t\t\t\n\t\tNAME\n\tADDRESS\n\tEMAIL\n\tPHONE\n\t\n\t\tJames Kyle\n\tWashington Ave 123 Street\n\tjames@email.com\n\t333- 118- 987\n\t\n\t\tPatricia Yap\n\tRoberston 152 NY, 167 Hills\n\tpatricia@email.com\n\t333- 118- 988\n\t\n\t\tNatalie Smith\n\tLuke Avenue 123 Street\n\tnatalie@email.com\n\t333- 118- 989\n\t\n\t\t\t\n\t\t\t\n\t\n\t\n\n\t\t\t\n\t\tInspector Information\n\t\n\t\t\t\n\t\tNAME\n\tADDRESS\n\tEMAIL\n\tPHONE\n\t\n\t\tFaith Lucky\n\tGreen Hills 278 Path\n\tfaith@email.com\n\t333- 118- 990\n\t\n\t\tStella Nicole\n\tRoberston 152 NY, 167 Hills\n\tstella@emaiil.com\n\t333- 118- 991\n\t\n\t\t\t\n\t\t\t\n\t\n\t\n\n\t\nImage\t\n\t\n\t\tThe following are instructions on how to use the template.\n\t\t\n\t\t\t\n\t\t1. Edit or add content like inserting rows and columns to the template.\n\t\t\n\t\t2. There are no locked-up cells for easier editing of cell names.\n\t\t\n\t\t3. Feel free to change any formula available.\n\t\t\n\t\t\t\n\t\tShould you need assistance, please contact our Customer Support Team using the chat box found on the website.",
+          "tags": [],
+          "attachment": {
+            "date": "2025-08-21T10:53:14Z",
+            "content_type": "application/vnd.oasis.opendocument.spreadsheet",
+            "modified": "2025-08-21T12:22:38.992508480",
+            "language": "no",
+            "content_length": 2510
+          },
+          "provider": "files",
+          "subtags": [],
+          "parts": {
+            "comments": ""
+          },
+          "links": [],
+          "share_names": {
+            "admin": "テンプレート/Checklist.ods"
+          },
+          "lastModified": 1768978731,
+          "hash": "19e48a68ecdbc0f74bf0d1963aa5dbce"
+        }
+      },
+      {
+        "_index": "nextcloud",
+        "_id": "files:51",
+        "_score": 1.0,
+        "_ignored": [
+          "content.keyword"
+        ],
+        "_source": {
+          "owner": "admin",
+          "groups": [],
+          "circles": [],
+          "metatags": [
+            "files_local"
+          ],
+          "source": "files_local",
+          "title": "テンプレート/Diagram & table.ods",
+          "users": [],
+          "content": "Object 1\n'Diagram & table'.B18:'Diagram & table'.F18\tObject 2\n\tObject 3\n\tObject 4\n\tObject 5\n\n\tCategory 1\n'Diagram & table'.A19:'Diagram & table'.A19\t2\n'Diagram & table'.B19:'Diagram & table'.F19\t1\n\t2\n\t5\n\t3\n\n\tCategory 2\n'Diagram & table'.A20:'Diagram & table'.A20\t1\n'Diagram & table'.B20:'Diagram & table'.F20\t3\n\t4\n\t1\n\t4\n\n\tCategory 3\n'Diagram & table'.A21:'Diagram & table'.A21\t3\n'Diagram & table'.B21:'Diagram & table'.F21\t1\n\t1\n\t2\n\t6\n\n\n???\nPage \n??? (???)\n00/00/0000, 00:00:00\nPage  / \n\t\tTitle of diagram & table\n\t\n\t\n\t\tObject 1\n\tObject 2\n\tObject 3\n\tObject 4\n\tObject 5\n\t\n\tCategory 1\n\t2\n\t1\n\t2\n\t5\n\t3\n\t\n\tCategory 2\n\t1\n\t3\n\t4\n\t1\n\t4\n\t\n\tCategory 3\n\t3\n\t1\n\t2\n\t6",
+          "tags": [],
+          "attachment": {
+            "date": "2021-02-05T18:44:04.554408479",
+            "content_type": "application/vnd.oasis.opendocument.spreadsheet",
+            "language": "ro",
+            "content_length": 665
+          },
+          "provider": "files",
+          "subtags": [],
+          "parts": {
+            "comments": ""
+          },
+          "links": [],
+          "share_names": {
+            "admin": "テンプレート/Diagram & table.ods"
+          },
+          "lastModified": 1768978732,
+          "hash": "134d8c86d7ccdee5bcc7754abedbf74b"
+        }
+      },
+      {
+        "_index": "nextcloud",
+        "_id": "files:45",
+        "_score": 1.0,
+        "_ignored": [
+          "content.keyword"
+        ],
+        "_source": {
+          "owner": "admin",
+          "groups": [],
+          "circles": [],
+          "metatags": [
+            "files_local"
+          ],
+          "source": "files_local",
+          "title": "テンプレート/Ecosystem.odp",
+          "users": [],
+          "content": "A project by Full Name\n\n\n\n\nEcosystem\nPresentation\n\n\nTable of Contents\n\n\n\tTopic Overview\n\n\n\tDetailed Description\n\n\tIllustrative Examples\n\n\tQuote\n\n\tAssignment\n\n\tQ&A\n\n\n\tContact Information\n\n\n\n\n\n\n\nTimeline\n\n\n\n\n\n\n\n\n\n\nChapter Title\n\n\tFirst point of information\n\n\tSecond point of information\n\n\tThird point of information\n\n\tFourth point of information\n\n\tFifth point of information\n\n\n\n\n\n\n\n\tHere you could list down the sources of work you have used to create this presentation.\n\n\n\t\n\n\n\tAuthor's last name, first name. \"Title of source\". publisher, date published.\n\n\n\tAuthor's last name, first name. \"Title of source\". publisher, date published.\n\n\tAuthor's last name, first name. \"Title of source\". publisher, date published.\n\n\tAuthor's last name, first name. \"Title of source\". publisher, date published.\n\n\n\nBibliograph\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n8/19/25\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n8/19/25\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n8/19/25\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n8/19/25\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n8/19/25\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n8/19/25",
+          "tags": [],
+          "attachment": {
+            "date": "2025-08-19T13:45:13Z",
+            "content_type": "application/vnd.oasis.opendocument.presentation",
+            "modified": "2025-08-19T15:00:44.744784744",
+            "language": "en",
+            "title": "Untitled - 19 August 2025 at 15.43.45",
+            "content_length": 1009
+          },
+          "provider": "files",
+          "subtags": [],
+          "parts": {
+            "comments": ""
+          },
+          "links": [],
+          "share_names": {
+            "admin": "テンプレート/Ecosystem.odp"
+          },
+          "lastModified": 1768978732,
+          "hash": "414fc8ae937e12c481baa24cec1b3b5f"
+        }
+      },
+      {
+        "_index": "nextcloud",
+        "_id": "files:46",
+        "_score": 1.0,
+        "_ignored": [
+          "content.keyword"
+        ],
+        "_source": {
+          "owner": "admin",
+          "groups": [],
+          "circles": [],
+          "metatags": [
+            "files_local"
+          ],
+          "source": "files_local",
+          "title": "テンプレート/Elegant.odp",
+          "users": [],
+          "content": "Click to edit the title text format\n\n\tClick to edit the outline text format\n\tSecond Outline Level\n\tThird Outline Level\n\tFourth Outline Level\n\tFifth Outline Level\n\tSixth Outline Level\n\tSeventh Outline Level\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nClick to edit the title text format\n\n\tClick to edit the outline text format\n\tSecond Outline Level\n\tThird Outline Level\n\tFourth Outline Level\n\tFifth Outline Level\n\tSixth Outline Level\n\tSeventh Outline Level\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nElegant slides\n\nName  ·  Conference  ·  Date\n\n\nBold & beautiful\n\n\tMake your point\n\n\tShort and concise\n\n\t…\n\n\n\n\nSection slide\n\n\nShare your ideas\n\n🖼\nAdd a picture!\n\n\nThank you!\n\nname@example.com",
+          "tags": [],
+          "attachment": {
+            "date": "2021-02-05T13:43:02.519501120",
+            "content_type": "application/vnd.oasis.opendocument.presentation",
+            "language": "en",
+            "content_length": 675
+          },
+          "provider": "files",
+          "subtags": [],
+          "parts": {
+            "comments": ""
+          },
+          "links": [],
+          "share_names": {
+            "admin": "テンプレート/Elegant.odp"
+          },
+          "lastModified": 1768978732,
+          "hash": "bf3e33f0031ac9f7f4d8840942fabe88"
+        }
+      },
+      {
+        "_index": "nextcloud",
+        "_id": "files:36",
+        "_score": 1.0,
+        "_ignored": [
+          "content.keyword"
+        ],
+        "_source": {
+          "owner": "admin",
+          "groups": [],
+          "circles": [],
+          "metatags": [
+            "files_local"
+          ],
+          "source": "files_local",
+          "title": "テンプレート/Expense report.ods",
+          "users": [],
+          "content": "???\nPage \n??? (???)\n00/00/0000, 00:00:00\nPage  / \n\tExpense report\n\n\t\t\t\t\n\tName\n\t\tEmployee ID\n\tDepartment\n\t\t\t\t\n\tEmployee name\n\t\t#12345\n\tDepartment name\n\t\t\t\n\t\t\t\t\n\tPurpose\n\t\tManager\n\t\t\t\t\n\tExpense purpose\n\t\tManager name\n\t\t\t\t\n\t\t\t\t\n\tDate\n\tCategory\n\tDescription\n\tAmount\n\t\t\t\n\t7 Aug 2025\n\tHotel\n\tHotel name in city\n\t300.00\n\t\t\t\n\t7 Aug 2025\n\tTrain\n\tFrom city A to city B, and return\n\t90.00\n\t\t\t\n\t7 Aug 2025\n\tMeal\n\tDinner with customers\n\t70.00\n\t\t\t\n\t\n\t\t\t\t\t\n\t\n\t\t\t\t\t\n\t\n\t\t\t\t\t\n\t\n\t\t\t\t\t\n\t\n\t\t\t\t\t\n\t\n\t\t\t\t\t\n\t\n\t\t\t\t\t\n\t\t€460.00\n\t\t\t\n\t\t\t\t\n\tDate\n\tSignature\n\t\t\t\t\n\t7 Aug 2025",
+          "tags": [],
+          "attachment": {
+            "date": "2021-02-05T21:08:42.747293293",
+            "content_type": "application/vnd.oasis.opendocument.spreadsheet",
+            "language": "ro",
+            "content_length": 559
+          },
+          "provider": "files",
+          "subtags": [],
+          "parts": {
+            "comments": ""
+          },
+          "links": [],
+          "share_names": {
+            "admin": "テンプレート/Expense report.ods"
+          },
+          "lastModified": 1768978731,
+          "hash": "da33f14162822c9ce41f8eb74c3bcced"
+        }
+      },
+      {
+        "_index": "nextcloud",
+        "_id": "files:42",
+        "_score": 1.0,
+        "_source": {
+          "owner": "admin",
+          "groups": [],
+          "circles": [],
+          "metatags": [
+            "files_local"
+          ],
+          "source": "files_local",
+          "title": "テンプレート/Flowchart.odg",
+          "users": [],
+          "content": "Lamp\n plugged in?\nLamp doesn’t work\nPlug in lamp\nReplace bulb\nRepair Lamp\nBulb\nburned out?\n\nNo\n\n Yes\nYes\n\n No",
+          "tags": [],
+          "attachment": {
+            "content_type": "application/vnd.oasis.opendocument.graphics",
+            "author": "Julius Härtl",
+            "modified": "2022-02-19T17:12:19.467073257",
+            "language": "eo",
+            "title": "en-US",
+            "content_length": 110
+          },
+          "provider": "files",
+          "subtags": [],
+          "parts": {
+            "comments": ""
+          },
+          "links": [],
+          "share_names": {
+            "admin": "テンプレート/Flowchart.odg"
+          },
+          "lastModified": 1768978731,
+          "hash": "8c8e7b600c5e83f763548e7f979e2576"
+        }
+      },
+      {
+        "_index": "nextcloud",
+        "_id": "files:34",
+        "_score": 1.0,
+        "_source": {
+          "share_names": {
+            "admin": "テンプレート/Flowchart.whiteboard"
+          },
+          "owner": "admin",
+          "users": [],
+          "groups": [],
+          "circles": [],
+          "links": [],
+          "metatags": [
+            "files_local"
+          ],
+          "subtags": [],
+          "tags": [],
+          "hash": "",
+          "provider": "files",
+          "lastModified": 1768978731,
+          "source": "files_local",
+          "title": "テンプレート/Flowchart.whiteboard",
+          "parts": {
+            "comments": ""
+          },
+          "content": ""
+        }
+      },
+      {
+        "_index": "nextcloud",
+        "_id": "files:19",
+        "_score": 1.0,
+        "_ignored": [
+          "content.keyword"
+        ],
+        "_source": {
+          "owner": "admin",
+          "groups": [],
+          "circles": [],
+          "metatags": [
+            "files_local"
+          ],
+          "source": "files_local",
+          "title": "テンプレート/Gotong royong.odp",
+          "users": [],
+          "content": "Gotong Royong is Awesome & Multipurpose \nTemplate by Free/Open Source Software \nCommunity Indonesia \n\nPresenter Nama\n\nmymail@domain.co.id\n\n\nEvent Name\n\nDecember, 12 2020\n\n\n\nFullsnack Designer\n\nGotong royong is collaboative work in Indonesian culture. We believe can do everything with gotong royong, including create this awesome template. \n\nFor best result, please make sure Poppins font already installed.\n\n\n\n@raniaamina_id\n\n\n@raniaamina.id\n\n\nhttps://raniaamina.id\n\n\nSAMPLE\nOF \nDESCRIPTION\nPAGE\n\n\nA design community focused on free / open source software. Gimpscape is not only a place to learn about design, \nbut also a space for those who want to contribute to open source projects both locally and internationally. \n\n\n\nLearn, Share, and Inspire\n\nhttps://gimpscape.org   //  https://t.me/gimpscape.org  //  @gimpscape_id\n\n\nWhy you should use \nGotong Royong Template\nFor Your Presentation?\n\n\nThis is the first reason why you should use this template\n\nThis is the second reason why you should use this template\n\nThis is the third reason why you should use this template\n\n\n\n\nYes, sometimes we need free space to breath,\nthat’s the reason why this page exist.\n\n\n\nSAMPLE OF LIST \nEXPLANATION\nPAGE\n\n\n\nThis is the first list that explain something to your audiences\n\nThis is the second list that explain something to your audiences\n\nThis is the third list that explain something to your audiences\n\n\nThis is break section, let’s enjoy the beautiful scene beside this text!\n\n\nDon’t Bore Your Audiences!\n\nThis first trick may work for you, but we can’t promise it will work in all conditions, so please be convident with your slides\n\nThis second trick may work for you, but we can’t promise it will work in all conditions, so please be convident with your slides\n\nThis last trick may work for you, but we can’t promise it will work in all conditions, so please be convident with your slides\n\n\n\n\nFIGHT YOUR CHALLENGES, DON’T RUN AWAY!\n\nThis is the first reason why you should fight your challenges\n\nThis is the second reason why you should fight your challenges\n\nThis is the third reason why you should fight your challenges\n\n\n\n\nwork by: Teguh Pribawa\n\n\n\nwork by: Ahfie Rofi\n\nHow if i have no quote to put in this page? Hmm, sad :(\n\n\n\nwork by: Rizki Daneswara \n\nSharing & collaborating\nare the spirit of open source. \nWithout these, open source\nis just nonsense. \n\nYes, finally i have!\n\n\nLet's Inspire Each Other!\nThank You! \n\n\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWork by: @ozantliuky\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nwork by: Bahtiar Adhitya Putra",
+          "tags": [],
+          "attachment": {
+            "date": "2023-05-12T11:41:30.840439575",
+            "content_type": "application/vnd.oasis.opendocument.presentation",
+            "modified": "2023-05-12T11:41:57.321591620",
+            "language": "en",
+            "content_length": 4481
+          },
+          "provider": "files",
+          "subtags": [],
+          "parts": {
+            "comments": ""
+          },
+          "links": [],
+          "share_names": {
+            "admin": "テンプレート/Gotong royong.odp"
+          },
+          "lastModified": 1768978731,
+          "hash": "0dc25e5145e99dd498f1b277ef1df257"
+        }
+      },
+      {
+        "_index": "nextcloud",
+        "_id": "files:39",
+        "_score": 1.0,
+        "_source": {
+          "share_names": {
+            "admin": "テンプレート/Impact effort.whiteboard"
+          },
+          "owner": "admin",
+          "users": [],
+          "groups": [],
+          "circles": [],
+          "links": [],
+          "metatags": [
+            "files_local"
+          ],
+          "subtags": [],
+          "tags": [],
+          "hash": "",
+          "provider": "files",
+          "lastModified": 1768978731,
+          "source": "files_local",
+          "title": "テンプレート/Impact effort.whiteboard",
+          "parts": {
+            "comments": ""
+          },
+          "content": ""
+        }
+      },
+      {
+        "_index": "nextcloud",
+        "_id": "files:21",
+        "_score": 1.0,
+        "_ignored": [
+          "content.keyword"
+        ],
+        "_source": {
+          "owner": "admin",
+          "groups": [],
+          "circles": [],
+          "metatags": [
+            "files_local"
+          ],
+          "source": "files_local",
+          "title": "テンプレート/Invoice.ods",
+          "users": [],
+          "content": "???\nPage \n??? (???)\n00/00/0000, 00:00:00\nPage  / \n\t\t\t\n\t\t I N V O I C E\n\t\t\n\t\t\t\t\n\t\tInvoice #\n\t\tDate\n\t\t\t\n\t\t\t\t00. Month Year\n\t\t\t\n\t\t\t\t\t\t\n\t\tBill To\n\t\tShip To\n\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\n\t\tItem #\n\tDescription\n\tQTY\n\t Unit Price \n\t Total Price \n\t\t\n\t\t1\n\tName of the item\n\t25\n\t€ 15.00 \n\t€ 375.00 \n\t\t\n\t\t2\n\tName of the item\n\t50\n\t€ 20.00 \n\t€ 1,000.00 \n\t\t\n\t\t3\n\tName of the item\n\t75\n\t€ 12.00 \n\t€ 900.00 \n\t\t\n\t\t4\n\tName of the item\n\t100\n\t€ 15.00 \n\t€ 1,500.00 \n\t\t\n\t\t5\n\tName of the item\n\t125\n\t€ 20.00 \n\t€ 2,500.00 \n\t\t\n\t\t6\n\tName of the item\n\t150\n\t€ 25.00 \n\t€ 3,750.00 \n\t\t\n\t\t7\n\tName of the item\n\t175\n\t€ 25.00 \n\t€ 4,375.00 \n\t\t\n\t\t8\n\tName of the item\n\t200\n\t€ 15.00 \n\t€ 3,000.00 \n\t\t\n\t\t\t\t \n\t\t\n\t\t\t\t \n\t\t\n\t\t\t\t \n\t\t\n\t\t\t\t \n\t\t\n\t\t\t\t \n\t\t\n\t\t\t\t \n\t\t\n\t\t\t\t \n\t\t\n\t\t\n\t\t\t \n\t\t\n\t\t\n\t\t\t \n\t\t\n\t\t\n\t\t\t \n\t\t\n\t\tNote\n\t\tSubtotal:\n\t€ 17,400.00 \n\t\t\n\t\t\t\tTax %:\n\t10%\n\t\t\n\t\t\t\tTax Amount:\n\t€ 1,740.00 \n\t\t\n\t\t\tTotal Amount:\n\t€ 19,140.00 \n\t\t\n\t\t\t\t\n\t\t*insert signature here*\n\t\t\t\n\t\tName of the signer\n\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\tTransaction info\n\tContact info\n\t\t\n\t\tBank detail 1\n\tEmail Address\n\t\t\n\t\tBank detail 2\n\tPhone Number",
+          "tags": [],
+          "attachment": {
+            "date": "2025-08-21T11:55:51Z",
+            "content_type": "application/vnd.oasis.opendocument.spreadsheet",
+            "modified": "2025-08-21T12:29:01.020799324",
+            "language": "en",
+            "content_length": 1046
+          },
+          "provider": "files",
+          "subtags": [],
+          "parts": {
+            "comments": ""
+          },
+          "links": [],
+          "share_names": {
+            "admin": "テンプレート/Invoice.ods"
+          },
+          "lastModified": 1768978731,
+          "hash": "51dba90e7a838d8d39939d7ca32fd52b"
+        }
+      },
+      {
+        "_index": "nextcloud",
+        "_id": "files:41",
+        "_score": 1.0,
+        "_ignored": [
+          "content.keyword"
+        ],
+        "_source": {
+          "owner": "admin",
+          "groups": [],
+          "circles": [],
+          "metatags": [
+            "files_local"
+          ],
+          "source": "files_local",
+          "title": "テンプレート/Invoice.odt",
+          "users": [],
+          "content": "Your company name or logo\nABC Bank\t\tManaging director: Your name\nIBAN: DE12 3456 7890 0000 1234 5678 00\t\tVAT-ID: 123456789  ·  Registered at XXX XXX\nSWIFT: ABCDEF1234\t\tcontact@example.com  ·  example.com\nYour company  ·  Street name 123  ·  12345 City name\n\nRecipient company name\tInvoice #:\t1234501\nStreet name 123\tProject #:\t123456789\n12345 City name\tCustomer #:\t12345\nCountry\tDate:\t5. Feb 2021\n\n\n\n\nDear Reader,\n\nthank you for your order. The breakdown is as follows:\n\n\tPos.\n\tDescription\n\tQuantity\n\tPrice\n\tTotal\n\n\t1\n\tProduct\nDetails, article no.\n\t2\n\t50.00\n\t100.00\n\n\t2\n\tAccessories\nDetails, article no.\n\t3\n\t20.00\n\t60.00\n\n\t3\n\tDelivery\n3–5 working days\n\t1\n\t10.00\n\t10.00\n\n\t\n\t\n\t\n\tNet total\n\t170.00\n\n\t\n\t\n\tVAT\n\t19%\n\t32.30\n\n\t\n\t\n\t\n\tGross total\n\t€202.30\n\n\n\nThe amount is payable within 7 days to:\n\nABC Bank\nIBAN: DE12 3456 7890 0000 1234 5678 00\nSWIFT: ABCDEF1234\n\n\nYours sincerely,\n\n\n\nYour name\nJob title",
+          "tags": [],
+          "attachment": {
+            "date": "2021-02-05T21:07:41.325565735",
+            "content_type": "application/vnd.oasis.opendocument.text",
+            "language": "ro",
+            "content_length": 901
+          },
+          "provider": "files",
+          "subtags": [],
+          "parts": {
+            "comments": ""
+          },
+          "links": [],
+          "share_names": {
+            "admin": "テンプレート/Invoice.odt"
+          },
+          "lastModified": 1768978731,
+          "hash": "53d04470c19ae90a4d29170ef4d8380b"
+        }
+      },
+      {
+        "_index": "nextcloud",
+        "_id": "files:23",
+        "_score": 1.0,
+        "_source": {
+          "share_names": {
+            "admin": "テンプレート/Kanban board.whiteboard"
+          },
+          "owner": "admin",
+          "users": [],
+          "groups": [],
+          "circles": [],
+          "links": [],
+          "metatags": [
+            "files_local"
+          ],
+          "subtags": [],
+          "tags": [],
+          "hash": "",
+          "provider": "files",
+          "lastModified": 1768978731,
+          "source": "files_local",
+          "title": "テンプレート/Kanban board.whiteboard",
+          "parts": {
+            "comments": ""
+          },
+          "content": ""
+        }
+      },
+      {
+        "_index": "nextcloud",
+        "_id": "files:52",
+        "_score": 1.0,
+        "_ignored": [
+          "content.keyword"
+        ],
+        "_source": {
+          "owner": "admin",
+          "groups": [],
+          "circles": [],
+          "metatags": [
+            "files_local"
+          ],
+          "source": "files_local",
+          "title": "テンプレート/Letter.odt",
+          "users": [],
+          "content": "Your company name or logo\nABC Bank\t\tManaging director: Your name\nIBAN: DE12 3456 7890 0000 1234 5678 00\t\tVAT-ID: 123456789  ·  Registered at XXX XXX\nSWIFT: ABCDEF1234\t\tcontact@example.com  ·  example.com\nYour name  ·  Street name 123  ·  12345 City name\n\nRecipient name\nStreet name 123\n12345 City name\nCountry\t5. Feb 2021\n\n\n\n\nDear Recipient,\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam malesuada sapien vel turpis ullamcorper, eu blandit lacus auctor. Praesent non pharetra libero. Nullam scelerisque turpis et tellus ultrices auctor. Integer eget lacus quis metus sagittis cursus. Ut interdum pharetra ligula, et posuere mi dictum a.\n\nCurabitur eget eros nec orci volutpat sollicitudin quis sed lorem. Vestibulum interdum fermentum odio sit amet semper. Etiam consectetur eros eu eros aliquam elementum. Nulla auctor, est quis vestibulum cursus, velit mauris euismod leo, nec consequat mauris tortor eget mauris.\n\nSed vel mauris nulla. Pellentesque porta odio in nulla sollicitudin venenatis. Morbi ullamcorper varius consequat. Ut accumsan urna in egestas placerat.\n\n\nBest regards,\n\n\n\nYour name\nJob title",
+          "tags": [],
+          "attachment": {
+            "date": "2021-02-05T21:07:30.717013785",
+            "content_type": "application/vnd.oasis.opendocument.text",
+            "language": "ro",
+            "content_length": 1131
+          },
+          "provider": "files",
+          "subtags": [],
+          "parts": {
+            "comments": ""
+          },
+          "links": [],
+          "share_names": {
+            "admin": "テンプレート/Letter.odt"
+          },
+          "lastModified": 1768978732,
+          "hash": "56df8b67a990c2ca61337c8999c27830"
+        }
+      },
+      {
+        "_index": "nextcloud",
+        "_id": "files:35",
+        "_score": 1.0,
+        "_source": {
+          "share_names": {
+            "admin": "テンプレート/Meeting agenda.whiteboard"
+          },
+          "owner": "admin",
+          "users": [],
+          "groups": [],
+          "circles": [],
+          "links": [],
+          "metatags": [
+            "files_local"
+          ],
+          "subtags": [],
+          "tags": [],
+          "hash": "",
+          "provider": "files",
+          "lastModified": 1768978731,
+          "source": "files_local",
+          "title": "テンプレート/Meeting agenda.whiteboard",
+          "parts": {
+            "comments": ""
+          },
+          "content": ""
+        }
+      },
+      {
+        "_index": "nextcloud",
+        "_id": "files:17",
+        "_score": 1.0,
+        "_ignored": [
+          "content.keyword"
+        ],
+        "_source": {
+          "owner": "admin",
+          "groups": [],
+          "circles": [],
+          "metatags": [
+            "files_local"
+          ],
+          "source": "files_local",
+          "title": "テンプレート/Meeting notes.md",
+          "users": [],
+          "content": "# Meeting notes\n\n* 📅 15 January 2021, via Nextcloud Talk\n* 👥 Julius, Vanessa, Jan, …\n\n## Tasks ✅\n\n* [ ] Finish marketing campaign\n* [ ] To do 2\n* [ ] …\n\n## Agenda 📑\n\n* What we want to change\n* …\n\n## Recap from last meeting 🔁\n\n* …\n\n## Discussion 💬\n\n* Vanessa suggested …\n* Julius brought up …\n* …",
+          "tags": [],
+          "attachment": {
+            "content_type": "text/plain; charset=UTF-8",
+            "language": "et",
+            "content_length": 301
+          },
+          "provider": "files",
+          "subtags": [],
+          "parts": {
+            "comments": ""
+          },
+          "links": [],
+          "share_names": {
+            "admin": "テンプレート/Meeting notes.md"
+          },
+          "lastModified": 1768978731,
+          "hash": "6014babf26acf785bedb4921adf8b190"
+        }
+      },
+      {
+        "_index": "nextcloud",
+        "_id": "files:12",
+        "_score": 1.0,
+        "_ignored": [
+          "content.keyword"
+        ],
+        "_source": {
+          "owner": "admin",
+          "groups": [],
+          "circles": [],
+          "metatags": [
+            "files_local"
+          ],
+          "source": "files_local",
+          "title": "テンプレート/Menu.odt",
+          "users": [],
+          "content": "Elegance Diner  A Modern Twist on Classic Comfort    Appetizer  Crispy Calamari: Aioli & Marinara  French Onion Soup: Gruyère Crouton  Shrimp Cocktail: Jumbo Shrimp, Cocktail Sauce    Main Course  \"Elegance\" Burger: Truffle Aioli, Fries or Salad  Pan-Seared Salmon: Asparagus, Lemon-Dill  Spaghetti Carbonara: Pancetta, Parmesan    Dessert  New York Cheesecake  Chocolate Lava Cake: Vanilla Ice Cream  Crème brûlée    Beverages  Coffee, Tea, Soft Drinks, Juice  Wine & Beer List Available    Daily Special  Ask your server about today's Chef's Special!",
+          "tags": [],
+          "attachment": {
+            "date": "2025-08-19T15:31:00Z",
+            "content_type": "application/vnd.oasis.opendocument.text",
+            "author": "Alexandra Boehm",
+            "modified": "2025-08-19T16:01:59.797456474",
+            "language": "ro",
+            "content_length": 574
+          },
+          "provider": "files",
+          "subtags": [],
+          "parts": {
+            "comments": ""
+          },
+          "links": [],
+          "share_names": {
+            "admin": "テンプレート/Menu.odt"
+          },
+          "lastModified": 1768978731,
+          "hash": "6de8fe8cef982e903420e22b43a28aff"
+        }
+      },
+      {
+        "_index": "nextcloud",
+        "_id": "files:29",
+        "_score": 1.0,
+        "_source": {
+          "share_names": {
+            "admin": "テンプレート/Mind map.whiteboard"
+          },
+          "owner": "admin",
+          "users": [],
+          "groups": [],
+          "circles": [],
+          "links": [],
+          "metatags": [
+            "files_local"
+          ],
+          "subtags": [],
+          "tags": [],
+          "hash": "",
+          "provider": "files",
+          "lastModified": 1768978731,
+          "source": "files_local",
+          "title": "テンプレート/Mind map.whiteboard",
+          "parts": {
+            "comments": ""
+          },
+          "content": ""
+        }
+      },
+      {
+        "_index": "nextcloud",
+        "_id": "files:27",
+        "_score": 1.0,
+        "_source": {
+          "owner": "admin",
+          "groups": [],
+          "circles": [],
+          "metatags": [
+            "files_local"
+          ],
+          "source": "files_local",
+          "title": "テンプレート/Mindmap.odg",
+          "users": [],
+          "content": "Advertising\n\n\n\n\n\nEmbassy\n\n\nTheories\n\n\nAppeal\n\n\nLayout\n\n\n\n\n\nOrganization\n\n\nContent\n\n\nBudget\n\n\nAnalysis\n\n\nMarketing\n\n\nAims\n\n\n\nInstruments\n\n\n\nSegmentation\n\n\n\nCommunication\n\n\nEvents\n\n\n\nMedia\n\n\n\nSponsoring\n\n\n\nPR",
+          "tags": [],
+          "attachment": {
+            "content_type": "application/vnd.oasis.opendocument.graphics",
+            "author": "Julius Härtl",
+            "modified": "2022-02-19T15:49:17.276378274",
+            "language": "en",
+            "title": "en-US",
+            "content_length": 214
+          },
+          "provider": "files",
+          "subtags": [],
+          "parts": {
+            "comments": ""
+          },
+          "links": [],
+          "share_names": {
+            "admin": "テンプレート/Mindmap.odg"
+          },
+          "lastModified": 1768978731,
+          "hash": "f9fc8fe1f025bdc525f8a107582802a9"
+        }
+      },
+      {
+        "_index": "nextcloud",
+        "_id": "files:47",
+        "_score": 1.0,
+        "_ignored": [
+          "content.keyword"
+        ],
+        "_source": {
+          "owner": "admin",
+          "groups": [],
+          "circles": [],
+          "metatags": [
+            "files_local"
+          ],
+          "source": "files_local",
+          "title": "テンプレート/Modern company.odp",
+          "users": [],
+          "content": "Column 1\n\tColumn 2\n\tColumn 3\n\n\tRow 1\n\t2.4\n\t8.8\n\t9.65\n\n\tRow 2\n\t9.1\n\t3.2\n\t4.54\n\n\tRow 3\n\t4.3\n\t9.02\n\t6.2\n\n\tRow 4\n\t3.1\n\t8.8\n\t3.7\n\n\tRow 5\n\t5.1\n\t9.5\n\t4.7\n\n\n\t\n\tColumn 1\n\tColumn 2\n\tColumn 3\n\n\tRow 1\n\t9.1\n\t3.2\n\t4.54\n\n\tRow 2\n\t2.4\n\t8.8\n\t9.65\n\n\tRow 3\n\t3.1\n\t1.5\n\t3.7\n\n\tRow 4\n\t4.3\n\t9.02\n\t6.2\n\n\tRow 5\n\t3.1\n\t8.8\n\t3.7\n\n\n\t\n\tColumn 1\n\tColumn 2\n\tColumn 3\n\n\tRow 1\n\t9.1\n\t3.2\n\t4.54\n\n\tRow 2\n\t2.4\n\t8.8\n\t9.65\n\n\tRow 3\n\t3.1\n\t1.5\n\t3.7\n\n\tRow 4\n\t4.3\n\t9.02\n\t6.2\n\n\tRow 5\n\t3.1\n\t8.8\n\t3.7\n\n\n\t\n\tColumn 1\n\tColumn 2\n\tColumn 3\n\n\tRow 1\n\t9.1\n\t3.2\n\t4.54\n\n\tRow 2\n\t2.4\n\t8.8\n\t9.65\n\n\tRow 3\n\t3.1\n\t1.5\n\t3.7\n\n\tRow 4\n\t4.3\n\t9.02\n\t6.2\n\n\tRow 5\n\t3.1\n\t8.8\n\t3.7\n\n\n\t\n\tColumn 1\n\tColumn 2\n\tColumn 3\n\n\tRow 1\n\t9.1\n\t3.2\n\t4.54\n\n\tRow 2\n\t2.4\n\t8.8\n\t9.65\n\n\tRow 3\n\t3.1\n\t1.5\n\t3.7\n\n\tRow 4\n\t4.3\n\t9.02\n\t6.2\n\n\tRow 5\n\t3.1\n\t8.8\n\t3.7\n\n\n\t\n\tColumn 1\n\tColumn 2\n\tColumn 3\n\n\tRow 1\n\t9.1\n\t3.2\n\t4.54\n\n\tRow 2\n\t2.4\n\t8.8\n\t9.65\n\n\tRow 3\n\t3.1\n\t1.5\n\t3.7\n\n\tRow 4\n\t4.3\n\t9.02\n\t6.2\n\n\tRow 5\n\t3.1\n\t8.8\n\t3.7\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPresent By:\nZamZam\n\n\nDiscover a New\nWORLD\n\n\n\nImage:\n950x1000\nHello &\nWelcome\n\n\nLorem ipsum dolorem amet\n\nLorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec ut urna.\n\n\n\nImage:\n950x1000\n\nHello &\nWelcome\n\n\nLorem ipsum dolorem amet\n\nLorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec ut urna.\n\n\n700+\n\n\n\nWelcome\n\nLorem ipsum dolorem amet\n\nLorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec ut urna.\n\n\n\n\n\n\n\n\nLorem ipsum\n\nLorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec ut urna.\n\n\n96%\n\nLorem ipsum dolor sit amet, Donec ut urna.\n\n\n88%\n\nLorem ipsum dolor sit amet, Donec ut urna.\n\n\n93%\n\nLorem ipsum dolor sit amet, Donec ut urna.\n\n\n\n\n\n\n\n\n\n”The greatest glory in living lies not in\nnever falling, but in rising every time we fall”\n~ Nelson Mandela\n\n\n\n\n\n\n\nLorem ipsum dolorem amet\n\n“Life is what happens when you're busy making other plans.”\n\n~ John Lennon\n\n\n\n\nLorem ipsum dolorem amet\n\n“The future belongs to those who believe in the beauty of their dreams.”\n\n~ Eleanor Roosevelt\n\n\n\nImage:\n900x1080\n\nImage:\n1080x1080\nTell me and I forget.\nTeach me and I remember.\nInvolve me and I learn.\n\n~ Benjamin Franklin\n\n\n\n\nImage 1920x1080 send to back of dark shape\n“I hated every minute of training, but I said, ‘Don’t quit. Suffer now and live the rest of your life as a champion.”\n~ Muhammad Ali\n\n\n\n\nImage:\n1080x540\nImage:\n1080x540\nLorem ipsum dolorem amet\n\nLorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec ut urna. Sed fringilla. Nam consectetuer mollis dolor. \n\n\nOverview\n\n\nImage:\n1080x540\nImage:\n1080x540\nLorem ipsum dolorem amet\n\nLorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec ut urna. Sed fringilla. Nam consectetuer mollis dolor. \n\n\nProject Objective\n\nLorem ipsum dolorem amet\n\nLorem ipsum dolorem amet\n\n\nImage:\n1080x1080\nImage:\n1080x1080\nImage:\n1080x1080\nImage:\n1080x1080\nLorem ipsum dolorem amet\n\nLorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec ut urna. Sed fringilla. Nam consectetuer mollis dolor. \n\n\nUnderstanding the problem\n\n\nImage:\n1080x500\n\nsubtitle\nSmart way\n\n\nLorem ipsum dolorem amet\n\n\nLorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse viverra placerat tortor. Nulla facilisi. \n\nMaecenas justo. Nullam sapien mauris, venenatis at, fermentum at, tempus eu, urna. Donec nonummy lacinia leo. Aenean ultrices turpis. Suspendisse viverra placerat tortor.\n\n\n\nLorem ipsum dolorem amet\n\nLorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec ut urna. Sed fringilla. Nam consectetuer mollis dolor. \n\n\nMore productively\n\nImage:\n1080x1080\n\n\nLorem ipsum dolorem amet\n\nLorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec ut urna.\n\n\n\n\nLorem ipsum dolorem amet\n\nLorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec ut urna.\n\n\n\nImage:\n1080x1080\n\n\n\nOur Goal\n\n\nLorem ipsum dolorem amet\n\nLorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec ut urna.\n\n\n\nLorem ipsum dolorem amet\n\nLorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec ut urna.\n\n\n\nLorem ipsum dolorem amet\n\nLorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec ut urna.\n\n\n\nImage:\n900x1080\n\nsubtitle\nThe Future\n\nLorem ipsum dolorem amet\n\n\nLorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse viverra placerat tortor. Nulla facilisi. \n\nMaecenas justo. Nullam sapien mauris, venenatis at, fermentum at, tempus eu, urna. Donec nonummy lacinia leo. Aenean ultrices turpis. Suspendisse viverra placerat tortor.\n\n\n\n\nImage:\n1080x1080\nsubtitle\nInspirational\n\nLorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse viverra placerat tortor. Nulla facilisi. \n\nMaecenas justo. Nullam sapien mauris, venenatis at, fermentum at, tempus eu, urna. Donec nonummy lacinia leo. Aenean ultrices turpis. Suspendisse viverra placerat tortor.\n\n\n\n\n\nImage:\n900x1080\n\nsubtitle\nCommunity\n\nLorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse viverra placerat tortor. Nulla facilisi. \n\nMaecenas justo. Nullam sapien mauris, venenatis at, fermentum at, tempus eu, urna. Donec nonummy lacinia leo. Aenean ultrices turpis. Suspendisse viverra placerat tortor.\n\n\n\n\nsubtitle\nJohn Doe\nExcutive Operation\n\nLorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse viverra placerat tortor. Nulla facilisi. \n\n\nImage:\n1080x1080\n\n\n\n2021\n\n\nLorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec ut urna.\n\n\n\n\nsubtitle\nJohn Doe\nExcutive Operation\n\nImage:\n1080x1080\n\n90 %\n\n\nC++\n\n\n80 %\n\n\nGtk\n\n\n75 %\n\n\nQT\n\n\n85 %\n\n\nGo\n\n\n\nImage:\n900x1080\nsubtitle\nJane Doe\nMarketing\n\nLorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse viverra placerat tortor. Nulla facilisi. \n\n\n\n\n2021\n\n\nLorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec ut urna.\n\n\n\nImage:\n1080x1080\nImage:\n1080x1080\nImage:\n1080x1080\nImage:\n1080x1080\nLorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec ut urna. Sed fringilla. Nam consectetuer mollis dolor. \n\n\nOur Team\n\n\n\n\n\n\nImage:\n1080x540\nImage:\n1080x540\nLorem ipsum dolorem amet\n\nLorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec ut urna. Sed fringilla. Nam consectetuer mollis dolor. \n\n\nOur Team\n\n\nDeveloper\n\n\nDesigner\n\n\nImage:\n1080x540\nImage:\n1080x540\nOur Team\n\n\nCEO\n\n\nCTO\n\nImage:\n1080x540\nImage:\n1080x540\n\nCMO\n\n\nCOO\n\n\nCompany Timeline\n\n\n\n2017\n\nLorem ipsum dolor sit amet, consectetuer adipiscing elit. \n\n\n1/6\n\n\n\n\n2018\n\nLorem ipsum dolor sit amet, consectetuer adipiscing elit. \n\n\n2/6\n\n\n\n\n2019\n\nLorem ipsum dolor sit amet, consectetuer adipiscing elit. \n\n\n3/6\n\n\n\n\n\n\n\nCompany Timeline\n\n\n\n2020\n\nLorem ipsum dolor sit amet, consectetuer adipiscing elit. \n\n\n4/6\n\n\n\n2021\n\nLorem ipsum dolor sit amet, consectetuer adipiscing elit. \n\n\n5/6\n\n\n\n\n2022\n\nLorem ipsum dolor sit amet, consectetuer adipiscing elit. \n\n\n6/6\n\n\n\n\n\n\n\n\nCompany Timeline\n\nLorem ipsum dolor sit amet\n\n\tLorem ipsum dolor sit amet, consectetuer adipiscing elit.\n\n\n\tLorem ipsum dolor sit amet, consectetuer adipiscing elit. \n\n\n\n\n2019\n\n\n\nCompany Timeline\n\nLorem ipsum dolor sit amet\n\n\tLorem ipsum dolor sit amet, consectetuer adipiscing elit.\n\n\n\tLorem ipsum dolor sit amet, consectetuer adipiscing elit. \n\n\n\n\n2020\n\n\n\n\n\nCompany Timeline\n\nLorem ipsum dolor sit amet\n\n\tLorem ipsum dolor sit amet, consectetuer adipiscing elit.\n\n\n\tLorem ipsum dolor sit amet, consectetuer adipiscing elit. \n\n\n\n\n2021\n\n\n\nAgenda\n\nDec\nLorem ipsum dolorem amet\n\tLorem ipsum dolor sit amet, consectetuer adipiscing elit.\n\n\tDonec ut urna. Sed fringilla. Nam consectetuer.\n\n\tMollis dolor. \n\n\n\n1\n\n\nJan\nLorem ipsum dolorem amet\n\tLorem ipsum dolor sit amet, consectetuer adipiscing elit.\n\n\tDonec ut urna. Sed fringilla. Nam consectetuer.\n\n\tMollis dolor.\n\n\tSed fringilla. Nam consectetuer. \n\n\n\n2\n\n\nFeb\nLorem ipsum dolorem amet\n\tLorem ipsum dolor sit amet, consectetuer adipiscing elit.\n\n\tDonec ut urna. Sed fringilla. Nam consectetuer.\n\n\tMollis dolor. \n\n\n\n3\n\n\n\n4\n\n\n\nImage:\n500x1080\nAgenda\n\nMar\nLorem ipsum dolorem amet\n\tLorem ipsum dolor sit amet, consectetuer adipiscing elit.\n\n\tDonec ut urna. Sed fringilla. Nam consectetuer.\n\n\tMollis dolor. \n\n\n\n4\n\n\nApr\nLorem ipsum dolorem amet\n\tLorem ipsum dolor sit amet, consectetuer adipiscing elit.\n\n\tDonec ut urna. Sed fringilla. Nam consectetuer.\n\n\tMollis dolor.\n\n\tSed fringilla. Nam consectetuer. \n\n\n\n5\n\n\nMay\nLorem ipsum dolorem amet\n\tLorem ipsum dolor sit amet, consectetuer adipiscing elit.\n\n\tDonec ut urna. Sed fringilla. Nam consectetuer.\n\n\tMollis dolor. \n\n\n\n6\n\n\n\n\n\nStep & Process\n\n\n\nLorem ipsum\n\nLorem ipsum dolor sit amet, consectetuer adipiscing elit. \n\n\n1/4\n\n\n\nLorem ipsum\n\nLorem ipsum dolor sit amet, consectetuer adipiscing elit. \n\n\n2/4\n\n\n\n\nLorem ipsum\n\nLorem ipsum dolor sit amet, consectetuer adipiscing elit. \n\n\n3/4\n\n\n\n\nLorem ipsum\n\nLorem ipsum dolor sit amet, consectetuer adipiscing elit. \n\n\n4/4\n\n\n\n\n\n\n\n90 %\n\n\n\nLorem ipsum dolorem amet?\n\n\n\n\nOnline Survey\n\nLorem ipsum dolorem amet\n\n\n\n80 %\n\n\n\nLorem ipsum dolorem amet?\n\n\n\n\nLorem ipsum dolorem amet\n\n\n\n75 %\n\n\n\nLorem ipsum dolorem amet?\n\n\n\n\nLorem ipsum dolorem amet\n\n\n\n50 %\n\n\n\nLorem ipsum dolorem amet?\n\n\n\n\nLorem ipsum dolorem amet\n\n\n\nUser Static Analysis\n\n\n90 %\n\n\n\nLorem ipsum dolorem amet\n\n\n770900\n\n\n\nLorem ipsum dolor sit amet.\n\n\n\n\nLorem ipsum dolor sit amet.\n\n\n\n\nLorem ipsum dolor sit amet.\n\n\n\n\n\nOur Services\n\n\nIoT\n\n\tList\n\n\tList\n\n\tList\n\n\tList\n\n\tList\n\n\tList\n\n\n\n1\n\n\n\n\nWeb Application\n\n\tList\n\n\tList\n\n\tList\n\n\tList\n\n\n\n2\n\n\n\n\nDesktop\n\n\tList\n\n\tList\n\n\tList\n\n\tList\n\n\tList\n\n\tList\n\n\n\n3\n\n\n\n\nUI/UX\n\n\tList\n\n\tList\n\n\tList\n\n\tList\n\n\n\n4\n\n\n\n\nScenario\n\n\nScenario A\n\n\tList\n\n\tList\n\n\tList\n\n\tList\n\n\tList\n\n\tList\n\n\tList\n\n\tList\n\n\tList\n\n\n\n1\n\n\n\nScenario B\n\n\tList\n\n\tList\n\n\tList\n\n\tList\n\n\tList\n\n\tList\n\n\n\n2\n\n\n\nScenario C\n\n\tList\n\n\tList\n\n\tList\n\n\tList\n\n\n\n3\n\n\n\nScenario D\n\n\tList\n\n\tList\n\n\n\n4\n\n\n\nImage:\n500x1080\nParagraph Text\n\nLorem ipsum dolor sit amet\n\nConsectetuer adipiscing elit. Suspendisse viverra placerat tortor. Nulla facilisi. Maecenas justo. Nullam sapien mauris, venenatis at, fermentum at, tempus eu, urna. Donec nonummy lacinia leo. Aenean ultrices turpis. Suspendisse viverra placerat tortor.\n\nNam nisl quam, posuere non, volutpat sed, semper vitae, magna.\n\nDonec ut urna. Quisque dictum quam vel neque.\n\n\nDonec ut urna ermentum\n\n\n\nConsectetuer adipiscing elit. Suspendisse viverra placerat tortor. Nulla facilisi. Maecenas justo. Nullam sapien mauris, venenatis at, fermentum at, tempus eu, urna. Donec nonummy lacinia leo.\n\nAenean ultrices turpis. Suspendisse viverra placerat tortor. Nam nisl quam, posuere non, volutpat sed, semper vitae, magna. Donec ut urna.\n\nQuisque dictum quam vel neque. \n\n\n\nImage:\n500x1080\nParagraph Text\n\nLorem ipsum dolor sit amet\n\nConsectetuer adipiscing elit. Suspendisse viverra placerat tortor. Nulla facilisi. Maecenas justo. Nullam sapien mauris, venenatis at, fermentum at, tempus eu, urna.\n\nDonec nonummy lacinia leo. Aenean ultrices turpis. Suspendisse viverra.\n\n\nDonec ut urna ermentum\n\n\n\nConsectetuer adipiscing elit. Suspendisse viverra placerat tortor. Nulla facilisi. Maecenas justo. Nullam sapien mauris, venenatis at, fermentum at, tempus eu, urna. Donec nonummy lacinia leo.\n\nAenean ultrices turpis. Suspendisse viverra.\n\n\n\n\nLorem ipsum dolorem amet\n\nLorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec ut urna.\n\n\n\nParagraph Text\n\nLorem ipsum dolor sit amet\n\nConsectetuer adipiscing elit. Suspendisse viverra placerat tortor. Nulla facilisi. Maecenas justo. Nullam sapien mauris, venenatis at, fermentum at, tempus eu, urna.\n\nDonec nonummy lacinia leo. Aenean ultrices turpis. Suspendisse viverra.\n\nMaecenas justo. Nullam sapien mauris.\n\n\n\n\nLorem ipsum dolorem amet\n\nLorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec ut urna.\n\n\nImage:\n900x1080\n\n\nConsectetuer adipiscing elit. Donec ut urna. Sed fringilla.\nNam consectetuer mollis dolor. \n\n\nPartial column\n\n\nLorem ipsum\n\n\n\nConsectetuer adipiscing elit. Donec ut urna. Sed fringilla.\nNam consectetuer mollis dolor. \n\n\n\nLorem ipsum\n\n\n\nConsectetuer adipiscing elit. Donec ut urna. Sed fringilla.\nNam consectetuer mollis dolor. \n\n\n\nLorem ipsum\n\n\n\nConsectetuer adipiscing elit. Donec ut urna. Sed fringilla.\nNam consectetuer mollis dolor. \n\n\n\nLorem ipsum\n\n\n\nConsectetuer adipiscing elit. Donec ut urna. Sed fringilla.\nNam consectetuer mollis dolor. \n\n\n\nLorem ipsum\n\n\n\nConsectetuer adipiscing elit. Donec ut urna. Sed fringilla.\nNam consectetuer mollis dolor. \n\n\n\nLorem ipsum\n\n\n\nConsectetuer adipiscing elit. Donec ut urna. Sed fringilla.\nNam consectetuer mollis dolor. \n\n\n\nLorem ipsum\n\n\n\nConsectetuer adipiscing elit. Donec ut urna. Sed fringilla.\nNam consectetuer mollis dolor. \n\n\n\nLorem ipsum\n\n\n\n\nLorem ipsum\n\nConsectetuer adipiscing elit. Donec ut urna. Sed fringilla.\n\n\nPartial column\n\n\n\n\n\n\n\n\n\nLorem ipsum\n\nConsectetuer adipiscing elit. Donec ut urna. Sed fringilla.\n\n\n\nLorem ipsum\n\nConsectetuer adipiscing elit. Donec ut urna. Sed fringilla.\n\n\n\nLorem ipsum\n\nConsectetuer adipiscing elit. Donec ut urna. Sed fringilla.\n\n\n\nLorem ipsum\n\nConsectetuer adipiscing elit. Donec ut urna. Sed fringilla.\n\n\n\nLorem ipsum\n\nConsectetuer adipiscing elit. Donec ut urna. Sed fringilla.\n\n\n\nLorem ipsum\n\nConsectetuer adipiscing elit. Donec ut urna. Sed fringilla.\n\n\n\nLorem ipsum\n\nConsectetuer adipiscing elit. Donec ut urna. Sed fringilla.\n\n\n\n\nImage:\n1080x1080\n\nConsectetuer adipiscing elit. Donec ut urna. Sed fringilla.\nNam consectetuer mollis dolor. \n\n\nPartial column\n\n\nLorem ipsum\n\n\n\nConsectetuer adipiscing elit. Donec ut urna. Sed fringilla.\nNam consectetuer mollis dolor. \n\n\n\nLorem ipsum\n\n\n\nConsectetuer adipiscing elit. Donec ut urna. Sed fringilla.\nNam consectetuer mollis dolor. \n\n\n\nLorem ipsum\n\n\n\nConsectetuer adipiscing elit. Donec ut urna. Sed fringilla.\nNam consectetuer mollis dolor. \n\n\n\nLorem ipsum\n\n\n\n\nConsectetuer adipiscing elit. Donec ut urna. Sed fringilla.\nNam consectetuer mollis dolor. \n\n\nPartial column\n\n\nLorem ipsum\n\n\n\nConsectetuer adipiscing elit. Donec ut urna. Sed fringilla.\nNam consectetuer mollis dolor. \n\n\n\nLorem ipsum\n\n\n\nConsectetuer adipiscing elit. Donec ut urna. Sed fringilla.\nNam consectetuer mollis dolor. \n\n\n\nLorem ipsum\n\n\nImage:\n1920x350\n\nNew Services\n\n\n\n\n\nLorem ipsum\n\nConsectetuer adipiscing elit. Donec ut urna. Sed fringilla.\n\n\n\nLorem ipsum\n\nConsectetuer adipiscing elit. Donec ut urna. Sed fringilla.\n\n\n\nLorem ipsum\n\nConsectetuer adipiscing elit. Donec ut urna. Sed fringilla.\n\n\n\nLorem ipsum\n\nConsectetuer adipiscing elit. Donec ut urna. Sed fringilla.\n\n\n\nLorem ipsum dolor sit amet\n\nConsectetuer adipiscing elit. Suspendisse viverra placerat tortor. Nulla facilisi. Maecenas justo. Nullam sapien mauris, venenatis at, fermentum at, tempus eu, urna.\n\nDonec nonummy lacinia leo. Aenean ultrices turpis. Suspendisse viverra.\n\nMaecenas justo. Nullam sapien mauris.\n\n\n\n\nLorem ipsum dolorem amet\n\nLorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec ut urna.\n\n\n\nImage:\n1920x1080\n\n\n\nLorem ipsum dolorem amet\n\nLorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec ut urna.\n\n\n\nLorem ipsum dolorem amet\n\nLorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec ut urna.\n\n\nLorem ipsum dolorem amet\n\nLorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec ut urna.\n\n\n\nLorem ipsum dolorem amet\n\nLorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec ut urna.\n\n\n\nImage:\n1080x1080\nImage:\n1080x1080\nOur Blog\n\n\n\nLorem ipsum dolorem amet\n\n\n\n\nLorem ipsum dolorem amet\n\n\n\n\nImage 1920x1080 send to back of dark shape\nThrough The Time\n\n\n\n\nData Chart\n\n\n\nLorem ipsum dolorem amet\n\nLorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec ut urna.\n\n\nLorem ipsum dolorem amet\n\nLorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec ut urna.\n\n\n\nLorem ipsum dolorem amet\n\nLorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec ut urna.\n\n\n\nData Chart\n\nLorem ipsum dolor sit amet\n\nConsectetuer adipiscing elit. Suspendisse viverra placerat tortor. Nulla facilisi. Maecenas justo. Nullam sapien mauris, venenatis at, fermentum at, tempus eu, urna. Donec nonummy lacinia leo. Aenean ultrices turpis. Suspendisse viverra placerat tortor.\n\n\n\nData Chart\n\nLorem ipsum dolor sit amet\n\nConsectetuer adipiscing elit. Suspendisse viverra placerat tortor. Nulla facilisi. Maecenas justo.\n\n\tNullam sapien mauris, venenatis at, fermentum at, tempus eu, urna.\n\n\n\tDonec nonummy lacinia leo. Aenean ultrices turpis. Suspendisse viverra placerat tortor.\n\n\n\n\nData Chart\n\nLorem ipsum dolor sit amet\n\nConsectetuer adipiscing elit. Suspendisse viverra placerat tortor. Nulla facilisi. Maecenas justo. Nullam sapien mauris, venenatis at, fermentum at, tempus eu, urna. Donec nonummy lacinia leo. Aenean ultrices turpis. Suspendisse viverra placerat tortor.\n\n\n\nData Chart\n\nLorem ipsum dolor sit amet\n\nConsectetuer adipiscing elit. Suspendisse viverra placerat tortor. Nulla facilisi. Maecenas justo. Nullam sapien mauris, venenatis at, fermentum at, tempus eu, urna. Donec nonummy lacinia leo.\n\n\nLorem ipsum dolor sit amet\n\nConsectetuer adipiscing elit. Suspendisse viverra placerat tortor. Nulla facilisi. Maecenas justo. Nullam sapien mauris, venenatis at.\n\n\n\nData Chart\n\nLorem ipsum dolor sit amet\n\nConsectetuer adipiscing elit. Suspendisse viverra placerat tortor. Nulla facilisi. Maecenas justo. Nullam sapien mauris, venenatis at, fermentum at, tempus eu, urna. Donec nonummy lacinia leo.\n\n\nImage:\n900x1080\n\nLorem ipsum dolorem amet\n\n\n\n\n\nImage 1920x1080 send to back of dark shape\n\nDonec ut urna. Quisque dictum quam vel neque. Vestibulum viverra varius enim. Aliquam imperdiet lobortis metus. Pellentesque ac turpis. Pellentesque condimentum felis a sem. Pellentesque sit amet dui vel justo gravida auctor. Nam consectetuer mollis dolor.\n\n\n\n\n\t\n\n\n\n\n\n\n\n\t\n\nBusiness Infographic\n\n\n\nLorem ipsum dolorem amet\n\nLorem ipsum dolor sit amet, consectetuer adipiscing elit.\n\n\nLorem ipsum dolorem amet\n\nLorem ipsum dolor sit amet, consectetuer adipiscing elit.\n\n\n\nLorem ipsum dolorem amet\n\nLorem ipsum dolor sit amet, consectetuer adipiscing elit.\n\n\n\n\nLorem ipsum dolorem amet\n\nLorem ipsum dolor sit amet, consectetuer adipiscing elit.\n\n\nLorem ipsum dolorem amet\n\nLorem ipsum dolor sit amet, consectetuer adipiscing elit.\n\n\n\nLorem ipsum dolorem amet\n\nLorem ipsum dolor sit amet, consectetuer adipiscing elit.\n\n\n\nBusiness Infographic\n\n\n\nLorem ipsum dolorem amet\n\nLorem ipsum dolor sit amet, consectetuer adipiscing elit.\n\n\n\nLorem ipsum dolorem amet\n\nLorem ipsum dolor sit amet, consectetuer adipiscing elit.\n\n\n\n\nLorem ipsum dolorem amet\n\nLorem ipsum dolor sit amet, consectetuer adipiscing elit.\n\n\nLorem ipsum dolorem amet\n\nLorem ipsum dolor sit amet, consectetuer adipiscing elit.\n\n\n\nLorem ipsum dolorem amet\n\nLorem ipsum dolor sit amet, consectetuer adipiscing elit.\n\n\n\n\n\n\n\n\n\n\n\n\n\nLorem ipsum dolorem amet\n\nLorem ipsum dolor sit amet, consectetuer adipiscing elit.\n\n\n\nFast Answer & Questions\n\n\nLorem ipsum dolor sit amet ?\n\nSuspendisse viverra placerat tortor. Nam nisl quam, posuere non, volutpat sed, semper vitae, magna. Donec ut urna. Quisque dictum quam vel neque. \n\n\n\n\nDonec ut urna. Quisque dictum quam vel neque ?\n\n\n\n\nNam nisl quam, posuere non, volutpat sed, semper vitae, magna ?\n\n\n\nImage:\n500x1080\n\nFast Answer & Questions\n\n\nDonec ut urna. Quisque dictum quam vel neque ?\n\nSuspendisse viverra placerat tortor. Nam nisl quam, posuere non, volutpat sed, semper vitae, magna. Donec ut urna. Quisque dictum quam vel neque. \n\n\n\nLorem ipsum dolor sit amet ?\n\n\n\n\nNam nisl quam, posuere non, volutpat sed, semper vitae, magna ?\n\n\n\nImage:\n500x1080\n\n\n\n\nFast Answer & Questions\n\nDonec ut urna. Quisque dictum quam vel neque ?\n\n\n\nLorem ipsum dolor sit amet ?\n\n\n\nNam nisl quam, posuere non, volutpat sed, semper vitae, magna ?\n\nSuspendisse viverra placerat tortor. Nam nisl quam, posuere non, volutpat sed, semper vitae, magna. Donec ut urna. Quisque dictum quam vel neque. \n\n\n\nImage:\n500x1080\n\n\n\nThank you\nImage 1920x1080 send to back of dark shape\n\n\n\n\nhttps://www.libreoffice.org/\n\n\n\n\n\t\n\tColumn 1\n\tColumn 2\n\tColumn 3\n\n\tRow 1\n\t9.1\n\t3.2\n\t4.54\n\n\tRow 2\n\t2.4\n\t8.8\n\t9.65\n\n\tRow 3\n\t3.1\n\t1.5\n\t3.7\n\n\tRow 4\n\t4.3\n\t9.02\n\t6.2\n\n\tRow 5\n\t3.1\n\t8.8\n\t3.7",
+          "tags": [],
+          "attachment": {
+            "date": "2023-05-12T11:42:14.783614871",
+            "content_type": "application/vnd.oasis.opendocument.presentation",
+            "language": "no",
+            "content_length": 20725
+          },
+          "provider": "files",
+          "subtags": [],
+          "parts": {
+            "comments": ""
+          },
+          "links": [],
+          "share_names": {
+            "admin": "テンプレート/Modern company.odp"
+          },
+          "lastModified": 1768978732,
+          "hash": "7ed621882279fe77f57a2726a8c8fb97"
+        }
+      },
+      {
+        "_index": "nextcloud",
+        "_id": "files:49",
+        "_score": 1.0,
+        "_source": {
+          "owner": "admin",
+          "groups": [],
+          "circles": [],
+          "metatags": [
+            "files_local"
+          ],
+          "source": "files_local",
+          "title": "テンプレート/Mother's day.odt",
+          "users": [],
+          "content": "Mom\n\n\n\n\n\n\n\n\n\n\n\n\n\nDear mom,\n\nthank you for being such an amazing mother through all these years. To properly celebrate you, we will take you to the spa next weekend!\n\nHappy Mother’s Day!",
+          "tags": [],
+          "attachment": {
+            "date": "2021-02-05T21:07:30.717013785",
+            "content_type": "application/vnd.oasis.opendocument.text",
+            "language": "en",
+            "content_length": 208
+          },
+          "provider": "files",
+          "subtags": [],
+          "parts": {
+            "comments": ""
+          },
+          "links": [],
+          "share_names": {
+            "admin": "テンプレート/Mother's day.odt"
+          },
+          "lastModified": 1768978732,
+          "hash": "25050fe7d7771b1c446c017c906cb816"
+        }
+      },
+      {
+        "_index": "nextcloud",
+        "_id": "files:18",
+        "_score": 1.0,
+        "_ignored": [
+          "content.keyword"
+        ],
+        "_source": {
+          "owner": "admin",
+          "groups": [],
+          "circles": [],
+          "metatags": [
+            "files_local"
+          ],
+          "source": "files_local",
+          "title": "テンプレート/Nostalgia.odp",
+          "users": [],
+          "content": "Main Title\n\nSUBTITLE HERE\n\n\n\nSection Title\n\nSUBTITLE HERE\n\n\n\nThis is a Title\n\n\tTOPIC\tONE \n\n\tTOPIC\tTWO \n\n\tTOPIC\tTHREE \n\n\tTOPIC\tFOUR \n\n\n\n\tTOPIC\tFIVE \n\n\tTOPIC\tSIX \n\n\tTOPIC\tSEVEN \n\n\tTOPIC\tEIGHT \n\n\n\n\n\n\n\" LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT, SED DO EIUSMOD TEMPOR INCIDIDUNT UT LABORE ET DOLORE MAGNA ALIQUA. \"\n\nFull Name\n\n\nThis is a Title\n\n\nTopic Two\nSUBTITLE HERE \n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua:\n\tUt enim ad minim veniam, quis nostrud.\n\n\tDuis aute irure dolor in reprehenderit in voluptate velit esse cillum.\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. \n\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.\n\nTopic One\nSUBTITLE HERE \n\n\nTopic One\n\n\n\nSUBTITLE HERE \n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\n\nTopic One\n\nNAME\nRole\n\nNAME\nRole\n\nNAME\nRole\n\nNAME\nRole\n\nNAME\nRole\n\nNAME\nRole\n\n\n\n\n\n\n\n\nThis is a Title\n\n\ndolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\n\tSUBTITLE HERE \n\n\n\t\n\n\t\n\n\n\tLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est\n\n\n\n\nThis is a Title\n\n\n\n\nTOPIC ONE\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. \n\nExcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab.\n\nNeque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?\n\nTOPIC TWO\n\nTOPIC THREE",
+          "tags": [],
+          "attachment": {
+            "date": "2025-08-19T09:49:04Z",
+            "content_type": "application/vnd.oasis.opendocument.presentation",
+            "modified": "2025-08-19T11:28:11.691411666",
+            "language": "ro",
+            "title": "Untitled - 19 August 2025 at 11.47.53",
+            "content_length": 3534
+          },
+          "provider": "files",
+          "subtags": [],
+          "parts": {
+            "comments": ""
+          },
+          "links": [],
+          "share_names": {
+            "admin": "テンプレート/Nostalgia.odp"
+          },
+          "lastModified": 1768978731,
+          "hash": "d6897a503dd078b42097882679a41cb2"
+        }
+      },
+      {
+        "_index": "nextcloud",
+        "_id": "files:13",
+        "_score": 1.0,
+        "_ignored": [
+          "content.keyword"
+        ],
+        "_source": {
+          "owner": "admin",
+          "groups": [],
+          "circles": [],
+          "metatags": [
+            "files_local"
+          ],
+          "source": "files_local",
+          "title": "テンプレート/Onboarding.odp",
+          "users": [],
+          "content": "New Hire Onboarding\n\n\n\n\n\n\n\nWe are excited to have you\n\n\n\n\tOrientation Schedule\nA breakdown of your first few days on the team.\n\n\tMeet the Team\nA highlight of core members and their roles.\n\n\tResponsibilities\nSome key aspects about your role.\n\n\tFAQ\nQuick answers on questions we've heard before.\n\n\n\nWhat’s in this doc?\n\n\n\"The team is like a second family.\"\n\nName\nJob position\n\nPlace an image\n\n\n\nOrientation Schedule\n\n\nMeet the\nteam\n\nPlace an image\nPlace an image\nPlace an image\nPlace an image\nPlace an image\nPlace an image\nPlace an image\n\n\n\nDay 1 Orientation\nThe hem of the pool expands indefinitely, ringing the sleeping dog.\n\n\tThe quick brown fox jumped over the lazy dog into a shimmering pool of rainwater that had gathered since.\n\n\n\tSoft clusters of leaves fall without a plan to the ground, mirroring the unhurried chestnut thatch.\n\n\n\n\n\tThe fox looks to the west, only then realizing the horizon has begun to curve towards them.\n\n\n\t\n\n\n\nPlace an image\n\nYour Responsibilities\n\nRapport Building\nEstablish and maintain client relationships.\n\nIndustry Research\nKeep tabs on industry growth and trends.\n\nPlace an image\nPlace an image\nPlace an image\nClient Research\nBuild an understanding of who we are working with.\n\n\nClient Research\nA part of our own growth plan is the ability to understand and connect with our clients.\n\n\tKnown for his sweetness, this dog shakes himself awake with a gentle groan and cranes his loaf-like head towards the fox with a quizzical bent. As they lock eyes, what world they know is flipped completely towards the southern sky, and the pool ushers them swiftly over the edge of the horizon’s curve. The quick brown fox jumped over the lazy dog into a shimmering pool of rainwater that had gathered since.\n\n\t\n\n\n\n\tSoft clusters of leaves fall without a plan to the ground, mirroring the unhurried chestnut thatch.\n\n\n\n\n\tThe fox looks to the west, only then realizing the horizon has begun to curve towards them.\n\n\n\n\n\nWe are at our best when our clients feel comfortable.\nKnown for his sweetness, this dog shakes himself awake with a gentle groan and cranes his loaf-like head towards the fox with a quizzical bent. As they lock eyes, what world they know is flipped completely towards the southern sky, and the pool ushers them swiftly over the edge of the horizon’s curve. The quick brown fox jumped over the lazy dog into a shimmering pool of rainwater that had gathered since.\n\nPlace an image",
+          "tags": [],
+          "attachment": {
+            "date": "2025-08-19T09:59:20Z",
+            "content_type": "application/vnd.oasis.opendocument.presentation",
+            "modified": "2025-08-19T14:33:30.555599895",
+            "language": "en",
+            "title": "Untitled - 19 August 2025 at 11.57.17",
+            "content_length": 2552
+          },
+          "provider": "files",
+          "subtags": [],
+          "parts": {
+            "comments": ""
+          },
+          "links": [],
+          "share_names": {
+            "admin": "テンプレート/Onboarding.odp"
+          },
+          "lastModified": 1768978731,
+          "hash": "f20273bc0c14c2223d61824023854e6e"
+        }
+      },
+      {
+        "_index": "nextcloud",
+        "_id": "files:24",
+        "_score": 1.0,
+        "_ignored": [
+          "content.keyword"
+        ],
+        "_source": {
+          "owner": "admin",
+          "groups": [],
+          "circles": [],
+          "metatags": [
+            "files_local"
+          ],
+          "source": "files_local",
+          "title": "テンプレート/Org chart.odg",
+          "users": [],
+          "content": "CEO\n\n\n\nCOO\n\n\n\nCTO\n\n\n\nCCO\n\n\n\nCFO\n\n\n\nCMO\n\n\n\nCSO\n\n\n\nSystemAdmin\n\n\n\nLead Front-End\n\n\n\nContent Specialist\n\n\n\nContent Specialist\n\n\n\nHR\n\n\n\nAdmin\n\n\n\nCommunity Evangelist\n\n\n\nCustomer Service\n\n\n\nSales Representative\n\n\n\nAccount Executive\n\n\n\nOffshore Senior Back-end\n\n\n\nOffshore Senior Front-end\n\n\n\nContent Specialist\n\n\n\nContent Specialist\n\n\n\nTrade Show Team\n\n\n\nSales Representative\n\n\n\nAccount Executive\n\n\n\nOffshore Junior Back-end\n\n\n\nContent Specialist\n\n\n\nTrade Show Team\n\n\n\nSales Representative\n\n\n\nAccount Executive\n\n\n\nOffshore Junior Back-end\n\n\n\nTrade Show Team\n\n\n\nSales Representative\n\n\n\nAccount Executive\n\n\n\nSales Representative\n\n\n\nAccount Executive\n\n\n\nPR\n\n\n\nAdmin\n\n\n\nTrade Show Team\n\n\n\nContent Specialist\n\n\n\nContent Specialist\n\n\n\nOffshore Junior Front-end",
+          "tags": [],
+          "attachment": {
+            "content_type": "application/vnd.oasis.opendocument.graphics",
+            "modified": "2022-04-19T11:52:43.940420353",
+            "language": "fr",
+            "title": "en-US",
+            "content_length": 793
+          },
+          "provider": "files",
+          "subtags": [],
+          "parts": {
+            "comments": ""
+          },
+          "links": [],
+          "share_names": {
+            "admin": "テンプレート/Org chart.odg"
+          },
+          "lastModified": 1768978731,
+          "hash": "8c7bdad24dc9deb4596e99f74584234f"
+        }
+      },
+      {
+        "_index": "nextcloud",
+        "_id": "files:15",
+        "_score": 1.0,
+        "_ignored": [
+          "content.keyword"
+        ],
+        "_source": {
+          "owner": "admin",
+          "groups": [],
+          "circles": [],
+          "metatags": [
+            "files_local"
+          ],
+          "source": "files_local",
+          "title": "テンプレート/Party invitation.odt",
+          "users": [],
+          "content": "You are invited to my\nBirthday party11. Mai 2023 in the park\n\nHi Alex,\n\nit’s been another year and I’d love to celebrate with all my dear friends. We will have a picnic in the park so bring your favorite finger food.\nI’ll bring drinks and music!\n\nSee you there, Sam",
+          "tags": [],
+          "attachment": {
+            "date": "2021-02-05T21:07:30.717013785",
+            "content_type": "application/vnd.oasis.opendocument.text",
+            "language": "en",
+            "content_length": 268
+          },
+          "provider": "files",
+          "subtags": [],
+          "parts": {
+            "comments": ""
+          },
+          "links": [],
+          "share_names": {
+            "admin": "テンプレート/Party invitation.odt"
+          },
+          "lastModified": 1768978731,
+          "hash": "127b1c68f276732621f1f2b356e0ab57"
+        }
+      },
+      {
+        "_index": "nextcloud",
+        "_id": "files:28",
+        "_score": 1.0,
+        "_source": {
+          "owner": "admin",
+          "groups": [],
+          "circles": [],
+          "metatags": [
+            "files_local"
+          ],
+          "source": "files_local",
+          "title": "テンプレート/Photo book.odt",
+          "users": [],
+          "content": "Seaside\nWeekend\nBeach sunset\nAzure water\n\nWaves crashing",
+          "tags": [],
+          "attachment": {
+            "date": "2021-02-05T21:07:30.717013785",
+            "content_type": "application/vnd.oasis.opendocument.text",
+            "language": "no",
+            "content_length": 76
+          },
+          "provider": "files",
+          "subtags": [],
+          "parts": {
+            "comments": ""
+          },
+          "links": [],
+          "share_names": {
+            "admin": "テンプレート/Photo book.odt"
+          },
+          "lastModified": 1768978731,
+          "hash": "cd863fbdb499247fa0036e9823e0ba7d"
+        }
+      },
+      {
+        "_index": "nextcloud",
+        "_id": "files:26",
+        "_score": 1.0,
+        "_ignored": [
+          "content.keyword"
+        ],
+        "_source": {
+          "owner": "admin",
+          "groups": [],
+          "circles": [],
+          "metatags": [
+            "files_local"
+          ],
+          "source": "files_local",
+          "title": "テンプレート/Pitch deck.odp",
+          "users": [],
+          "content": "PITCH DECK\n\nName\nConference\nDate\n\n\n\nTITLE OF SECTION\nDescription of slides goes here\n\n\nTABLE OF CONTENTS\n\n\n\tLorem ipsum dolor sit amet\n\n\tConsectetur adipiscing elit\n\n\tSed do eiusmod tempor \n\n\tIncididunt ut labore et dolore \n\n\tMagna aliqua \n\n\tUt enim ad minim veniam\n\n\tCommodo consequat\n\n\n\n\nTABLE OF CONTENTS\n\n\n\tLorem ipsum dolor sit amet\n\n\tConsectetur adipiscing elit\n\n\tSed do eiusmod tempor \n\n\tIncididunt ut labore et dolore \n\n\tMagna aliqua \n\n\tUt enim ad minim veniam\n\n\tCommodo consequat\n\n\n\n\nHEADER GOES HERE\n\n\tLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n\n\n\n\n\nTHANK YOU!\n\nName\nConference\nDate",
+          "tags": [],
+          "attachment": {
+            "date": "2025-08-20T06:21:45Z",
+            "content_type": "application/vnd.oasis.opendocument.presentation",
+            "modified": "2025-08-20T08:41:14.776008643",
+            "language": "it",
+            "title": "Untitled - 20 August 2025 at 08.21.12",
+            "content_length": 873
+          },
+          "provider": "files",
+          "subtags": [],
+          "parts": {
+            "comments": ""
+          },
+          "links": [],
+          "share_names": {
+            "admin": "テンプレート/Pitch deck.odp"
+          },
+          "lastModified": 1768978731,
+          "hash": "29b19dc67e76cb7e29a1cf99d91d5bd4"
+        }
+      },
+      {
+        "_index": "nextcloud",
+        "_id": "files:30",
+        "_score": 1.0,
+        "_ignored": [
+          "content.keyword"
+        ],
+        "_source": {
+          "owner": "admin",
+          "groups": [],
+          "circles": [],
+          "metatags": [
+            "files_local"
+          ],
+          "source": "files_local",
+          "title": "テンプレート/Product plan.md",
+          "users": [],
+          "content": "# Product plan\n\n* **Date:** â�¦\n* **Assignee:** â�¦\n\n## Overview ð��°ï¸�\n\n### Problem to solve\n\nWhich problem are we trying to solve with this change?\n\n### Proposal\n\nShort description of our proposed solution.\n\n### Timeline\n\n* [ ] Week 1: â�¦\n* [ ] Week 2: â�¦\n* [ ] Week 3: â�¦\n\n---\n\n## Research ð��®\n\n### Related products\n\n* Product from this company\n* Some mobile app doing something similar\n* â�¦\n\n### Screenshots\n\nð��¼\n\n---\n\n## Design ð���\n\n### Specification\n\nâ�¦\n\n### Mockups & prototypes\n\nâ�¦\n\n---\n\n## Engineering â��ï¸�\n\n### Requirements\n\nâ�¦\n\n### Constraints\n\nâ�¦",
+          "tags": [],
+          "attachment": {
+            "content_type": "text/plain; charset=ISO-8859-1",
+            "language": "en",
+            "content_length": 574
+          },
+          "provider": "files",
+          "subtags": [],
+          "parts": {
+            "comments": ""
+          },
+          "links": [],
+          "share_names": {
+            "admin": "テンプレート/Product plan.md"
+          },
+          "lastModified": 1768978731,
+          "hash": "81b27aa0c786f2ae77d9e494541a58de"
+        }
+      },
+      {
+        "_index": "nextcloud",
+        "_id": "files:44",
+        "_score": 1.0,
+        "_ignored": [
+          "content.keyword"
+        ],
+        "_source": {
+          "owner": "admin",
+          "groups": [],
+          "circles": [],
+          "metatags": [
+            "files_local"
+          ],
+          "source": "files_local",
+          "title": "テンプレート/Readme.md",
+          "users": [],
+          "content": "## Add folder info using this document\n\n* The contents of a **Readme.md** will show up embedded on the top of the folder it is in (in the web interface and the mobile apps)\n* Formatting is supported with the bar on top (using Markdown)\n* It uses Nextcloud Text so you can collaborate on it ð���\n* You can use and remix the templates as you like, they are in the public domain via the [CC0 license](https://creativecommons.org/publicdomain/zero/1.0/)\n\n## Action items\n\n* [ ] Try out the new templates\n* [ ] Add your own templates in this folder\n* [ ] â�¦",
+          "tags": [],
+          "attachment": {
+            "content_type": "text/plain; charset=ISO-8859-1",
+            "language": "en",
+            "content_length": 555
+          },
+          "provider": "files",
+          "subtags": [],
+          "parts": {
+            "comments": ""
+          },
+          "links": [],
+          "share_names": {
+            "admin": "テンプレート/Readme.md"
+          },
+          "lastModified": 1768978732,
+          "hash": "67e75b6c04a6e15f169833966fc9c66f"
+        }
+      },
+      {
+        "_index": "nextcloud",
+        "_id": "files:40",
+        "_score": 1.0,
+        "_ignored": [
+          "content.keyword"
+        ],
+        "_source": {
+          "owner": "admin",
+          "groups": [],
+          "circles": [],
+          "metatags": [
+            "files_local"
+          ],
+          "source": "files_local",
+          "title": "テンプレート/Report.odt",
+          "users": [],
+          "content": "ANNUAL COMPANY REPORT\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLOGO\n  NAME\nLorem ipsum dolor sit amet, consectetur adipiscing elit\n\n\nContents\n\n\n\n\n\n\n\n\tChapter 1\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit\n\n\tChapter 2\n\n\nLorem ipsum dolor sit amet\n\n\tChapter 3\n\n\nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat \n\n04\tChapter 4Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum\n\n05\tChapter 5Duis aute irure dolor in reprehenderit\n\n\n\n\n\n\n\n\n\n\n\n\nCOMPANY REPORT 01\n  \nChapter\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  \n Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  \nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\n\n\nCOMPANY REPORT 02\n  \n\n\n  \nSub title Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  \nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n\n\n\n\n\nSub title in two linesLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\nSub title in three lines, how dose it look?Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n\n\n\n\n\n\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n  \n\n\n\nCOMPANY REPORT 03\nConclusionLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. \nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCOMPANY REPORT 04",
+          "tags": [],
+          "attachment": {
+            "date": "2025-08-21T09:38:00Z",
+            "content_type": "application/vnd.oasis.opendocument.text",
+            "modified": "2025-08-21T10:18:53.089085234",
+            "language": "ro",
+            "content_length": 5189
+          },
+          "provider": "files",
+          "subtags": [],
+          "parts": {
+            "comments": ""
+          },
+          "links": [],
+          "share_names": {
+            "admin": "テンプレート/Report.odt"
+          },
+          "lastModified": 1768978731,
+          "hash": "834e923c2c72d986967b775dff78a5f7"
+        }
+      },
+      {
+        "_index": "nextcloud",
+        "_id": "files:31",
+        "_score": 1.0,
+        "_ignored": [
+          "content.keyword"
+        ],
+        "_source": {
+          "owner": "admin",
+          "groups": [],
+          "circles": [],
+          "metatags": [
+            "files_local"
+          ],
+          "source": "files_local",
+          "title": "テンプレート/Resume.odt",
+          "users": [],
+          "content": "Profile photo\n\tAlex Doe\nProduct Designer\n\nCONTACT\nno_reply@example.com\n (123) 456-7890\nwww.AlexDoeDesign.com\n123 Example Street\n\n\n\n\t\nEDUCATION\nSchool Name – Degree Month 20xx – Month 20xxBrief description of the skills you learned or software you used in school. Name relevant experiences or real life projects that you completed.\n\nSKILLS\n\nManagement Skills\n\nCreativity\n\nDigital Marketing\n\nLeadership\n\nCritical Thinking\n\nProblem Solving\n\n\nLANGUAGE\n\n\tEnglish\n\n\tFrench (basic)\n\n\tGerman (basic)\n\n\n\n\t\nPROFILE\nProvide a brief description of who you are what some of your interest and hobbies are. Having a common interest with a potential employer can help him/her want to get to know you. Don’t go overboard in this section.\nEXPERIENCE\nCompany Name / Location – Job TitleMonth 20xx – PresentBrief description of the job description and responsibilities that you had to manage while working in this job as well as the skills needed. \nCompany Name / Location – Job TitleMonth 20xx – Month 20xxBrief description of the job description and responsibilities that you had to manage while working in this job as well as the skills needed. \nCompany Name / Location – Job TitleMonth 20xx – Month 20xxBrief description of the job description and responsibilities that you had to manage while working in this job as well as the skills needed. \nACHIEVEMENTS\nAward Presenter – Name of the AwardMonth 20xxBrief description of the award and what you achieve to earn the award. Highlight the difficulty of winning this award.",
+          "tags": [],
+          "attachment": {
+            "date": "2025-08-20T16:07:00Z",
+            "content_type": "application/vnd.oasis.opendocument.text",
+            "author": "Alexandra Boehm",
+            "modified": "2025-08-20T16:07:00Z",
+            "language": "en",
+            "content_length": 1512
+          },
+          "provider": "files",
+          "subtags": [],
+          "parts": {
+            "comments": ""
+          },
+          "links": [],
+          "share_names": {
+            "admin": "テンプレート/Resume.odt"
+          },
+          "lastModified": 1768978731,
+          "hash": "42666fe2b68b3e8d1e92db4c3d864451"
+        }
+      },
+      {
+        "_index": "nextcloud",
+        "_id": "files:32",
+        "_score": 1.0,
+        "_ignored": [
+          "content.keyword"
+        ],
+        "_source": {
+          "owner": "admin",
+          "groups": [],
+          "circles": [],
+          "metatags": [
+            "files_local"
+          ],
+          "source": "files_local",
+          "title": "テンプレート/Security.odp",
+          "users": [],
+          "content": "Name – Conference - Date\n\nIT Security Guide\n\n\nContents\n\n\tContent One\n\n\tContent Two\n\n\tContent Three\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. \n\nSection title\n\n\nSection title\n\n\tDuis aute irure dolor in \nReprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. \n\n\tExcepteur sint occaecat cupidatat non provident\nSunt in culpa qui officia deserunt mollit anim id est laborum.\n\n\tSed ut perspiciatis unde omnis iste natus error \nSit voluptatem accusantium doloremque laudantiumtotam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. \n\n\n\n\nName – Conference - Date\n\nThank you!",
+          "tags": [],
+          "attachment": {
+            "date": "2025-08-20T06:18:01Z",
+            "content_type": "application/vnd.oasis.opendocument.presentation",
+            "modified": "2025-08-20T08:28:10.262632079",
+            "language": "it",
+            "title": "Untitled - 20 August 2025 at 08.17.42",
+            "content_length": 978
+          },
+          "provider": "files",
+          "subtags": [],
+          "parts": {
+            "comments": ""
+          },
+          "links": [],
+          "share_names": {
+            "admin": "テンプレート/Security.odp"
+          },
+          "lastModified": 1768978731,
+          "hash": "cd2719584c7e61e7176f3859da4704d0"
+        }
+      },
+      {
+        "_index": "nextcloud",
+        "_id": "files:54",
+        "_score": 1.0,
+        "_ignored": [
+          "content.keyword"
+        ],
+        "_source": {
+          "owner": "admin",
+          "groups": [],
+          "circles": [],
+          "metatags": [
+            "files_local"
+          ],
+          "source": "files_local",
+          "title": "テンプレート/Simple.odp",
+          "users": [],
+          "content": "Click to edit the title text format\n\n\tClick to edit the outline text format\n\tSecond Outline Level\n\tThird Outline Level\n\tFourth Outline Level\n\tFifth Outline Level\n\tSixth Outline Level\n\tSeventh Outline Level\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nClick to edit the title text format\n\n\tClick to edit the outline text format\n\tSecond Outline Level\n\tThird Outline Level\n\tFourth Outline Level\n\tFifth Outline Level\n\tSixth Outline Level\n\tSeventh Outline Level\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSimple presentation\n\nName\nConference, Date\n\n\nSimple & straightforward\n\n\tMake your point\n\n\tShort and concise\n\n\t…\n\n\n\n\nSection slide\n\n\nShare your ideas\n\n🖼\nAdd a picture!\n\n\nThank you!\n\nname@example.com",
+          "tags": [],
+          "attachment": {
+            "date": "2021-02-07T13:25:20.198248741",
+            "content_type": "application/vnd.oasis.opendocument.presentation",
+            "language": "en",
+            "content_length": 682
+          },
+          "provider": "files",
+          "subtags": [],
+          "parts": {
+            "comments": ""
+          },
+          "links": [],
+          "share_names": {
+            "admin": "テンプレート/Simple.odp"
+          },
+          "lastModified": 1768978732,
+          "hash": "838f9fff65a8baf50029afa97a2f9b55"
+        }
+      },
+      {
+        "_index": "nextcloud",
+        "_id": "files:37",
+        "_score": 1.0,
+        "_source": {
+          "share_names": {
+            "admin": "テンプレート/Sticky notes.whiteboard"
+          },
+          "owner": "admin",
+          "users": [],
+          "groups": [],
+          "circles": [],
+          "links": [],
+          "metatags": [
+            "files_local"
+          ],
+          "subtags": [],
+          "tags": [],
+          "hash": "",
+          "provider": "files",
+          "lastModified": 1768978731,
+          "source": "files_local",
+          "title": "テンプレート/Sticky notes.whiteboard",
+          "parts": {
+            "comments": ""
+          },
+          "content": ""
+        }
+      },
+      {
+        "_index": "nextcloud",
+        "_id": "files:22",
+        "_score": 1.0,
+        "_ignored": [
+          "content.keyword"
+        ],
+        "_source": {
+          "owner": "admin",
+          "groups": [],
+          "circles": [],
+          "metatags": [
+            "files_local"
+          ],
+          "source": "files_local",
+          "title": "テンプレート/Syllabus.odt",
+          "users": [],
+          "content": "Name of the University/School/Organization\n\tFebruary 20XX\n\n\nCourse Name Syllabus\n\n\nInstructor\tE-Mail / TelephoneInstructor Name\tno_reply@example.com / (123) 456-7890\nOffice Location\tClass LocationEnter Office Location\tEnter Building Number\nOffice Hours\tClass TimesEnter Office Hours\tEnter Class Times\n  \nCourse DescriptionAn effective course description provides students with basic information to evaluate a course before they enroll. Avoid repetitive, uninformative, or complex descriptions. Course description should be brief, informative, and interesting. This is especially important if your course is publicized through a catalog or brochure and your course is not required and dependent on student interest.\n\nRequired MaterialsYou can provide a brief description on where to get the textbooks for cheap online or you can list the required texts in an ordered list.\n\tEntrepreneurship by Openstax\n\n\tPrinciples of Management by Openstax\n\n\tOther requirements\n\n\n\nCourse ObjectiveYou may optionally list a course objectives in a list here.\n\tDemonstrate how to lead a group and resolves common interpersonal conflicts.\n\n\tImplement various types of team management styles.\n\n\tUse common industry standard team management software today.\n\n\n\nCourse Schedule\tWeek\n\tTopic\n\tAssignment\n\n\t1\n\t\n\t\n\n\t2\n\t\n\t\n\n\t3\n\t\n\t\n\n\t4\n\t\n\t\n\n\t5\n\t\n\t\n\n\t6\n\t\n\t\n\n\t7\n\t\n\t\n\n\n\nEvaluation MethodDescription of your grading methods and strictness.\n\tProjects\t20%\n\n\tMid Term\t20%\n\n\tQuizzes\t20%\n\n\tParticipation\t10%\n\n\tFinal\t30%\n\n\n\nLate PolicyProvide your late policy for any assignment after due date as well as the valid excuses for late policy. Make up exams, penalty, process for a valid excuse are all under late policy.\n\nAcademic PolicyProvide a description of the university's stance on academic integrity and cheating policy. The violation punishment for breaching the academic standard of conduct can be listed here. You may provide examples of violations.",
+          "tags": [],
+          "attachment": {
+            "date": "2023-05-12T11:39:00Z",
+            "content_type": "application/vnd.oasis.opendocument.text",
+            "modified": "2025-08-21T08:04:53.186387344",
+            "language": "en",
+            "title": "Basic_Syllabus",
+            "content_length": 1919
+          },
+          "provider": "files",
+          "subtags": [],
+          "parts": {
+            "comments": ""
+          },
+          "links": [],
+          "share_names": {
+            "admin": "テンプレート/Syllabus.odt"
+          },
+          "lastModified": 1768978731,
+          "hash": "8061106602c63063c0475444133ffda4"
+        }
+      },
+      {
+        "_index": "nextcloud",
+        "_id": "files:20",
+        "_score": 1.0,
+        "_source": {
+          "share_names": {
+            "admin": "テンプレート/Timeline.whiteboard"
+          },
+          "owner": "admin",
+          "users": [],
+          "groups": [],
+          "circles": [],
+          "links": [],
+          "metatags": [
+            "files_local"
+          ],
+          "subtags": [],
+          "tags": [],
+          "hash": "",
+          "provider": "files",
+          "lastModified": 1768978731,
+          "source": "files_local",
+          "title": "テンプレート/Timeline.whiteboard",
+          "parts": {
+            "comments": ""
+          },
+          "content": ""
+        }
+      },
+      {
+        "_index": "nextcloud",
+        "_id": "files:14",
+        "_score": 1.0,
+        "_ignored": [
+          "content.keyword",
+          "attachment.description.keyword"
+        ],
+        "_source": {
+          "owner": "admin",
+          "groups": [],
+          "circles": [],
+          "metatags": [
+            "files_local"
+          ],
+          "source": "files_local",
+          "title": "テンプレート/Timesheet.ods",
+          "users": [],
+          "content": "00/00/0000 00:00:00\nMonat ???\n???\nSeite /\n??? (???)\n00/00/0000, 00:00:00\nPage  / \n\tTimesheet\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\tfor\n\tyour name\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\tDate\n\tWeekday\n\tInstead of a start time this cell can also take a letter for reasons of absence, as listed in the „Info“ sheet.\nStart\n\tEnd\n\tAttendance\n\tIf needed, the standard break time from the „Info“ sheet can be overridden here.\nBreak time\n\tThe regular hours are only shown here if the date of the day is in the past or present.\nRegular hrs\n\tOvertime\n\tThe hours and hourly rate from the „Info“ sheet are used to calculate the salary.\nSalary\n\t\t\n\tAdjusting the date here will change it for the whole calendar.\n01/01/23\n\tSunday\n\t\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t02/01/23\n\tMonday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t03/01/23\n\tTuesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t04/01/23\n\tWednesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t05/01/23\n\tThursday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t06/01/23\n\tFriday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t07/01/23\n\tSaturday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t08/01/23\n\tSunday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t09/01/23\n\tMonday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t10/01/23\n\tTuesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t11/01/23\n\tWednesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t12/01/23\n\tThursday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t13/01/23\n\tFriday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t14/01/23\n\tSaturday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t15/01/23\n\tSunday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t16/01/23\n\tMonday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t17/01/23\n\tTuesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t18/01/23\n\tWednesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t19/01/23\n\tThursday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t20/01/23\n\tFriday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t21/01/23\n\tSaturday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t22/01/23\n\tSunday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t23/01/23\n\tMonday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t24/01/23\n\tTuesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t25/01/23\n\tWednesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t26/01/23\n\tThursday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t27/01/23\n\tFriday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t28/01/23\n\tSaturday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t29/01/23\n\tSunday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t30/01/23\n\tMonday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t31/01/23\n\tTuesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t\t\t\t\t\t176:00\n\t-176:00\n\t0.00 €\n\t\n\t\t\t\t\t\t\t\t\t\n\t\t\tOvertime from the previous month:\n\t\t\t\t\t\t\t\n\t\t\tOvertime from this month:\n\t-176:00:00\n\t\t\t\t\t\t\n\t\t\tOvertime total:\n\t-176:00:00\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\n\t\n\n\tTimesheet\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\tfor\n\tyour name\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\tDate\n\tWeekday\n\tStart\n\tEnd\n\tAttendance\n\tBreak time\n\tRegular hrs\n\tOvertime\n\tSalary\n\t\t\n\t01/02/23\n\tWednesday\n\t\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t02/02/23\n\tThursday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t03/02/23\n\tFriday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t04/02/23\n\tSaturday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t05/02/23\n\tSunday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t06/02/23\n\tMonday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t07/02/23\n\tTuesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t08/02/23\n\tWednesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t09/02/23\n\tThursday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t10/02/23\n\tFriday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t11/02/23\n\tSaturday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t12/02/23\n\tSunday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t13/02/23\n\tMonday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t14/02/23\n\tTuesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t15/02/23\n\tWednesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t16/02/23\n\tThursday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t17/02/23\n\tFriday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t18/02/23\n\tSaturday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t19/02/23\n\tSunday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t20/02/23\n\tMonday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t21/02/23\n\tTuesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t22/02/23\n\tWednesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t23/02/23\n\tThursday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t24/02/23\n\tFriday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t25/02/23\n\tSaturday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t26/02/23\n\tSunday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t27/02/23\n\tMonday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t28/02/23\n\tTuesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t30/12/99\n\t\n\t\t00:00\n\t00:00\n\t\n\t\n\t0.00\n\t\n\t30/12/99\n\t\n\t\t00:00\n\t00:00\n\t\n\t\n\t0.00\n\t\n\t30/12/99\n\t\n\t\t00:00\n\t00:00\n\t\n\t\n\t0.00\n\t\n\t\t\t\t\t\t160:00\n\t-160:00\n\t0.00 €\n\t\n\t\t\t\t\t\t\t\t\t\n\t\t\tOvertime from the previous month:\n\t-176:00:00\n\t\t\t\t\t\t\n\t\t\tOvertime from this month:\n\t-160:00:00\n\t\t\t\t\t\t\n\t\t\tOvertime total:\n\t-336:00:00\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\n\t\n\n\tTimesheet\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\tfor\n\tyour name\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\tDate\n\tWeekday\n\tStart\n\tEnd\n\tAttendance\n\tBreak time\n\tRegular hrs\n\tOvertime\n\tSalary\n\t\t\n\t01/03/23\n\tWednesday\n\t\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\t\n\t02/03/23\n\tThursday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t03/03/23\n\tFriday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t04/03/23\n\tSaturday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t05/03/23\n\tSunday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t06/03/23\n\tMonday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t07/03/23\n\tTuesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t08/03/23\n\tWednesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t09/03/23\n\tThursday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t10/03/23\n\tFriday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t11/03/23\n\tSaturday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t12/03/23\n\tSunday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t13/03/23\n\tMonday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t14/03/23\n\tTuesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t15/03/23\n\tWednesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t16/03/23\n\tThursday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t17/03/23\n\tFriday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t18/03/23\n\tSaturday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t19/03/23\n\tSunday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t20/03/23\n\tMonday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t21/03/23\n\tTuesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t22/03/23\n\tWednesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t23/03/23\n\tThursday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t24/03/23\n\tFriday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t25/03/23\n\tSaturday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t26/03/23\n\tSunday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t27/03/23\n\tMonday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t28/03/23\n\tTuesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t29/03/23\n\tWednesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t30/03/23\n\tThursday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t31/03/23\n\tFriday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t\t\t\t\t\t184:00\n\t-184:00\n\t0.00 €\n\t\n\t\t\t\t\t\t\t\t\t\n\t\t\tOvertime from the previous month:\n\t-336:00:00\n\t\t\t\t\t\t\n\t\t\tOvertime from this month:\n\t-184:00:00\n\t\t\t\t\t\t\n\t\t\tOvertime total:\n\t-520:00:00\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\n\t\n\n\tTimesheet\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\tfor\n\tyour name\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\tDate\n\tWeekday\n\tStart\n\tEnd\n\tAttendance\n\tBreak time\n\tRegular hrs\n\tOvertime\n\tSalary\n\t\t\n\t01/04/23\n\tSaturday\n\t\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t02/04/23\n\tSunday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t03/04/23\n\tMonday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t04/04/23\n\tTuesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t05/04/23\n\tWednesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t06/04/23\n\tThursday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t07/04/23\n\tFriday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t08/04/23\n\tSaturday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t09/04/23\n\tSunday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t10/04/23\n\tMonday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t11/04/23\n\tTuesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t12/04/23\n\tWednesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t13/04/23\n\tThursday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t14/04/23\n\tFriday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t15/04/23\n\tSaturday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t16/04/23\n\tSunday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t17/04/23\n\tMonday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t18/04/23\n\tTuesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t19/04/23\n\tWednesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t20/04/23\n\tThursday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t21/04/23\n\tFriday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t22/04/23\n\tSaturday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t23/04/23\n\tSunday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t24/04/23\n\tMonday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t25/04/23\n\tTuesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t26/04/23\n\tWednesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t27/04/23\n\tThursday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t28/04/23\n\tFriday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t29/04/23\n\tSaturday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t30/04/23\n\tSunday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t30/12/99\n\t\n\t\t00:00\n\t00:00\n\t\n\t\n\t0.00\n\t\n\t\t\t\t\t\t160:00\n\t-160:00\n\t0.00 €\n\t\n\t\t\t\t\t\t\t\t\t\n\t\t\tOvertime from the previous month:\n\t-520:00:00\n\t\t\t\t\t\t\n\t\t\tOvertime from this month:\n\t-160:00:00\n\t\t\t\t\t\t\n\t\t\tOvertime total:\n\t-680:00:00\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\n\t\n\n\tTimesheet\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\tfor\n\tyour name\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\tDate\n\tWeekday\n\tStart\n\tEnd\n\tAttendance\n\tBreak time\n\tRegular hrs\n\tOvertime\n\tSalary\n\t\t\n\t01/05/23\n\tMonday\n\t\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\t\n\t02/05/23\n\tTuesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t03/05/23\n\tWednesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t04/05/23\n\tThursday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t05/05/23\n\tFriday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t06/05/23\n\tSaturday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t07/05/23\n\tSunday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t08/05/23\n\tMonday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t09/05/23\n\tTuesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t10/05/23\n\tWednesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t11/05/23\n\tThursday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t12/05/23\n\tFriday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t13/05/23\n\tSaturday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t14/05/23\n\tSunday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t15/05/23\n\tMonday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t16/05/23\n\tTuesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t17/05/23\n\tWednesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t18/05/23\n\tThursday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t19/05/23\n\tFriday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t20/05/23\n\tSaturday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t21/05/23\n\tSunday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t22/05/23\n\tMonday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t23/05/23\n\tTuesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t24/05/23\n\tWednesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t25/05/23\n\tThursday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t26/05/23\n\tFriday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t27/05/23\n\tSaturday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t28/05/23\n\tSunday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t29/05/23\n\tMonday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t30/05/23\n\tTuesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t31/05/23\n\tWednesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t\t\t\t\t\t184:00\n\t-184:00\n\t0.00 €\n\t\n\t\t\t\t\t\t\t\t\t\n\t\t\tOvertime from the previous month:\n\t-680:00:00\n\t\t\t\t\t\t\n\t\t\tOvertime from this month:\n\t-184:00:00\n\t\t\t\t\t\t\n\t\t\tOvertime total:\n\t-864:00:00\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\n\t\n\n\tTimesheet\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\tfor\n\tyour name\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\tDate\n\tWeekday\n\tStart\n\tEnd\n\tAttendance\n\tBreak time\n\tRegular hrs\n\tOvertime\n\tSalary\n\t\t\n\t01/06/23\n\tThursday\n\t\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t02/06/23\n\tFriday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t03/06/23\n\tSaturday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t04/06/23\n\tSunday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t05/06/23\n\tMonday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t06/06/23\n\tTuesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t07/06/23\n\tWednesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t08/06/23\n\tThursday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t09/06/23\n\tFriday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t10/06/23\n\tSaturday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t11/06/23\n\tSunday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t12/06/23\n\tMonday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t13/06/23\n\tTuesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t14/06/23\n\tWednesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t15/06/23\n\tThursday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t16/06/23\n\tFriday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t17/06/23\n\tSaturday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t18/06/23\n\tSunday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t19/06/23\n\tMonday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t20/06/23\n\tTuesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t21/06/23\n\tWednesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t22/06/23\n\tThursday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t23/06/23\n\tFriday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t24/06/23\n\tSaturday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t25/06/23\n\tSunday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t26/06/23\n\tMonday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t27/06/23\n\tTuesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t28/06/23\n\tWednesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t29/06/23\n\tThursday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t30/06/23\n\tFriday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t30/12/99\n\t\n\t\t00:00\n\t00:00\n\t\n\t\n\t0.00\n\t\n\t\t\t\t\t\t176:00\n\t-176:00\n\t0.00 €\n\t\n\t\t\t\t\t\t\t\t\t\n\t\t\tOvertime from the previous month:\n\t-864:00:00\n\t\t\t\t\t\t\n\t\t\tOvertime from this month:\n\t-176:00:00\n\t\t\t\t\t\t\n\t\t\tOvertime total:\n\t-1040:00:00\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\n\t\n\n\tTimesheet\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\tfor\n\tyour name\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\tDate\n\tWeekday\n\tStart\n\tEnd\n\tAttendance\n\tBreak time\n\tRegular hrs\n\tOvertime\n\tSalary\n\t\t\n\t01/07/23\n\tSaturday\n\t\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t02/07/23\n\tSunday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t03/07/23\n\tMonday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t04/07/23\n\tTuesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t05/07/23\n\tWednesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t06/07/23\n\tThursday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t07/07/23\n\tFriday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t08/07/23\n\tSaturday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t09/07/23\n\tSunday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t10/07/23\n\tMonday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t11/07/23\n\tTuesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t12/07/23\n\tWednesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t13/07/23\n\tThursday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t14/07/23\n\tFriday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t15/07/23\n\tSaturday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t16/07/23\n\tSunday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t17/07/23\n\tMonday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t18/07/23\n\tTuesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t19/07/23\n\tWednesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t20/07/23\n\tThursday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t21/07/23\n\tFriday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t22/07/23\n\tSaturday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t23/07/23\n\tSunday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t24/07/23\n\tMonday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t25/07/23\n\tTuesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t26/07/23\n\tWednesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t27/07/23\n\tThursday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t28/07/23\n\tFriday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t29/07/23\n\tSaturday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t30/07/23\n\tSunday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t31/07/23\n\tMonday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t\t\t\t\t\t168:00\n\t-168:00\n\t0.00 €\n\t\n\t\t\t\t\t\t\t\t\t\n\t\t\tOvertime from the previous month:\n\t-1040:00:00\n\t\t\t\t\t\t\n\t\t\tOvertime from this month:\n\t-168:00:00\n\t\t\t\t\t\t\n\t\t\tOvertime total:\n\t-1208:00:00\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\n\t\n\n\tTimesheet\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\tfor\n\tyour name\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\tDate\n\tWeekday\n\tStart\n\tEnd\n\tAttendance\n\tBreak time\n\tRegular hrs\n\tOvertime\n\tSalary\n\t\t\n\t01/08/23\n\tTuesday\n\t\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t02/08/23\n\tWednesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t03/08/23\n\tThursday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t04/08/23\n\tFriday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t05/08/23\n\tSaturday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t06/08/23\n\tSunday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t07/08/23\n\tMonday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t08/08/23\n\tTuesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t09/08/23\n\tWednesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t10/08/23\n\tThursday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t11/08/23\n\tFriday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t12/08/23\n\tSaturday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t13/08/23\n\tSunday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t14/08/23\n\tMonday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t15/08/23\n\tTuesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t16/08/23\n\tWednesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t17/08/23\n\tThursday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t18/08/23\n\tFriday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t19/08/23\n\tSaturday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t20/08/23\n\tSunday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t21/08/23\n\tMonday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t22/08/23\n\tTuesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t23/08/23\n\tWednesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t24/08/23\n\tThursday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t25/08/23\n\tFriday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t26/08/23\n\tSaturday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t27/08/23\n\tSunday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t28/08/23\n\tMonday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t29/08/23\n\tTuesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t30/08/23\n\tWednesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t31/08/23\n\tThursday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t\t\t\t\t\t184:00\n\t-184:00\n\t0.00 €\n\t\n\t\t\t\t\t\t\t\t\t\n\t\t\tOvertime from the previous month:\n\t-1208:00:00\n\t\t\t\t\t\t\n\t\t\tOvertime from this month:\n\t-184:00:00\n\t\t\t\t\t\t\n\t\t\tOvertime total:\n\t-1392:00:00\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\n\t\n\n\tTimesheet\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\tfor\n\tyour name\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\tDate\n\tWeekday\n\tStart\n\tEnd\n\tAttendance\n\tBreak time\n\tRegular hrs\n\tOvertime\n\tSalary\n\t\t\n\t01/09/23\n\tFriday\n\t\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t02/09/23\n\tSaturday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t03/09/23\n\tSunday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t04/09/23\n\tMonday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t05/09/23\n\tTuesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t06/09/23\n\tWednesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t07/09/23\n\tThursday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t08/09/23\n\tFriday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t09/09/23\n\tSaturday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t10/09/23\n\tSunday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t11/09/23\n\tMonday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t12/09/23\n\tTuesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t13/09/23\n\tWednesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t14/09/23\n\tThursday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t15/09/23\n\tFriday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t16/09/23\n\tSaturday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t17/09/23\n\tSunday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t18/09/23\n\tMonday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t19/09/23\n\tTuesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t20/09/23\n\tWednesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t21/09/23\n\tThursday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t22/09/23\n\tFriday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t23/09/23\n\tSaturday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t24/09/23\n\tSunday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t25/09/23\n\tMonday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t26/09/23\n\tTuesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t27/09/23\n\tWednesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t28/09/23\n\tThursday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t29/09/23\n\tFriday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t30/09/23\n\tSaturday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t30/12/99\n\t\n\t\t00:00\n\t00:00\n\t\n\t\n\t0.00\n\t\n\t\t\t\t\t\t168:00\n\t-168:00\n\t0.00 €\n\t\n\t\t\t\t\t\t\t\t\t\n\t\t\tOvertime from the previous month:\n\t-1392:00:00\n\t\t\t\t\t\t\n\t\t\tOvertime from this month:\n\t-168:00:00\n\t\t\t\t\t\t\n\t\t\tOvertime total:\n\t-1560:00:00\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\n\t\n\n\tTimesheet\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\tfor\n\tyour name\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\tDate\n\tWeekday\n\tStart\n\tEnd\n\tAttendance\n\tBreak time\n\tRegular hrs\n\tOvertime\n\tSalary\n\t\t\n\t01/10/23\n\tSunday\n\t\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t02/10/23\n\tMonday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t03/10/23\n\tTuesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t04/10/23\n\tWednesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t05/10/23\n\tThursday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t06/10/23\n\tFriday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t07/10/23\n\tSaturday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t08/10/23\n\tSunday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t09/10/23\n\tMonday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t10/10/23\n\tTuesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t11/10/23\n\tWednesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t12/10/23\n\tThursday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t13/10/23\n\tFriday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t14/10/23\n\tSaturday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t15/10/23\n\tSunday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t16/10/23\n\tMonday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t17/10/23\n\tTuesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t18/10/23\n\tWednesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t19/10/23\n\tThursday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t20/10/23\n\tFriday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t21/10/23\n\tSaturday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t22/10/23\n\tSunday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t23/10/23\n\tMonday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t24/10/23\n\tTuesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t25/10/23\n\tWednesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t26/10/23\n\tThursday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t27/10/23\n\tFriday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t28/10/23\n\tSaturday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t29/10/23\n\tSunday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t30/10/23\n\tMonday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t31/10/23\n\tTuesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t\t\t\t\t\t176:00\n\t-176:00\n\t0.00 €\n\t\n\t\t\t\t\t\t\t\t\t\n\t\t\tOvertime from the previous month:\n\t-1560:00:00\n\t\t\t\t\t\t\n\t\t\tOvertime from this month:\n\t-176:00:00\n\t\t\t\t\t\t\n\t\t\tOvertime total:\n\t-1736:00:00\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\n\t\n\n\tTimesheet\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\tfor\n\tyour name\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\tDate\n\tWeekday\n\tStart\n\tEnd\n\tAttendance\n\tBreak time\n\tRegular hrs\n\tOvertime\n\tSalary\n\t\t\n\t01/11/23\n\tWednesday\n\t\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t02/11/23\n\tThursday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t03/11/23\n\tFriday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t04/11/23\n\tSaturday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t05/11/23\n\tSunday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t06/11/23\n\tMonday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t07/11/23\n\tTuesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t08/11/23\n\tWednesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t09/11/23\n\tThursday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t10/11/23\n\tFriday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t11/11/23\n\tSaturday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t12/11/23\n\tSunday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t13/11/23\n\tMonday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t14/11/23\n\tTuesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t15/11/23\n\tWednesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t16/11/23\n\tThursday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t17/11/23\n\tFriday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t18/11/23\n\tSaturday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t19/11/23\n\tSunday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t20/11/23\n\tMonday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t21/11/23\n\tTuesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t22/11/23\n\tWednesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t23/11/23\n\tThursday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t24/11/23\n\tFriday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t25/11/23\n\tSaturday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t26/11/23\n\tSunday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t27/11/23\n\tMonday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t28/11/23\n\tTuesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t29/11/23\n\tWednesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t30/11/23\n\tThursday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t30/12/99\n\t\n\t\t00:00\n\t00:00\n\t\n\t\n\t0.00\n\t\n\t\t\t\t\t\t176:00\n\t-176:00\n\t0.00 €\n\t\n\t\t\t\t\t\t\t\t\t\n\t\t\tOvertime from the previous month:\n\t-1736:00:00\n\t\t\t\t\t\t\n\t\t\tOvertime from this month:\n\t-176:00:00\n\t\t\t\t\t\t\n\t\t\tOvertime total:\n\t-1912:00:00\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\n\t\n\n\tTimesheet\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\tfor\n\tyour name\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\tDate\n\tWeekday\n\tStart\n\tEnd\n\tAttendance\n\tBreak time\n\tRegular hrs\n\tOvertime\n\tSalary\n\t\t\n\t01/12/23\n\tFriday\n\t\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t02/12/23\n\tSaturday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t03/12/23\n\tSunday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t04/12/23\n\tMonday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t05/12/23\n\tTuesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t06/12/23\n\tWednesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t07/12/23\n\tThursday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t08/12/23\n\tFriday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t09/12/23\n\tSaturday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t10/12/23\n\tSunday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t11/12/23\n\tMonday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t12/12/23\n\tTuesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t13/12/23\n\tWednesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t14/12/23\n\tThursday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t15/12/23\n\tFriday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t16/12/23\n\tSaturday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t17/12/23\n\tSunday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t18/12/23\n\tMonday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t19/12/23\n\tTuesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t20/12/23\n\tWednesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t21/12/23\n\tThursday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t22/12/23\n\tFriday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t23/12/23\n\tSaturday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t24/12/23\n\tSunday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t25/12/23\n\tMonday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t26/12/23\n\tTuesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t27/12/23\n\tWednesday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t28/12/23\n\tThursday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t29/12/23\n\tFriday\n\t\t00:00\n\t00:00\n\t08:00\n\t-08:00\n\t0.00\n\t\n\t30/12/23\n\tSaturday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t31/12/23\n\tSunday\n\t\t00:00\n\t00:00\n\t00:00\n\t00:00\n\t0.00\n\t\n\t\t\t\t\t\t168:00\n\t-168:00\n\t0.00 €\n\t\n\t\t\t\t\t\t\t\t\t\n\t\t\tOvertime from the previous month:\n\t-1912:00:00\n\t\t\t\t\t\t\n\t\t\tOvertime from this month:\n\t-168:00:00\n\t\t\t\t\t\t\n\t\t\tOvertime total:\n\t-2080:00:00\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\n\t\n\n\t\t\tRegular hrs\n\tBreak\n\tHourly rate\n\t\t\t\t\n\t1\n\tMonday\n\t08:00:00\n\t00:30:00\n\t30.00 €\n\t\tVersion 1.15\n\t\t\t\n\t2\n\tTuesday\n\t08:00:00\n\t00:30:00\n\t30.00 €\n\t\t\t\t\n\t3\n\tWednesday\n\t08:00:00\n\t00:30:00\n\t30.00 €\n\t\t\t\t\n\t4\n\tThursday\n\t08:00:00\n\t00:30:00\n\t30.00 €\n\t\t\t\t\n\t5\n\tFriday\n\t08:00:00\n\t00:30:00\n\t30.00 €\n\t\t\t\t\n\t6\n\tSaturday\n\t\t30.00 €\n\t\t\t\t\n\t7\n\tSunday\n\t\t30.00 €\n\t\t\t\t\n\t\t\t\t\t\n\tOnly yellow fields should be changed.\n\t\t\t\t\n\t\t\t\t\t\n\tThe following yellow fields are used as standard values in all tables unless cells c2:d8 are manually adjusted.\n\t\t\t\t\n\tRegular working hours\n\t\t08:00:00\n\thours\n\t\t\t\t\n\tRegular break time\n\t\t00:30:00\n\thours\n\t\t\t\t\n\tHourly rate\n\t\t30.00\n\tEuro\n\t\t\t\t\n\t\t\t\t\t\n\tReasons for absence which will not result in missed hours:\n\t\t\t\t\n\tH\n\tHoliday\n\t\t\t\t\n\tO\n\tOut sick\n\t\t\t\t\n\tV\n\tVacation\n\t\t\t\t\n\tS\n\tSchool\n\t\t\t\t\t\t\n\tF\n\tFlextime\n\t\t\t\t\t\t\n\tThese letters can be put into the „Start“ column.\n\t\t\t\t\n\tUsing the letter „F“ will take off the flextime hours.\n\t\t\t\t\n\t\t\t\t\t\n\tOvertime is automatically calculated for the current and past days.\n\t\t\t\t\n\tNegative overtime is absence.\n\t\t\t\t\n\t\t\t\t\t\n\tOriginal author of this template is Rudolf Braumann, email: r.braumann@gmx.de\n\t\t\t\t\n\tCopyright 2006. All rights reserved.\n\t\t\t\t\n\tThis template is free software, is licensed under the GNU LGPL and can be used and shared accordingly. The license text is available at http://www.gnu.org/copyleft/lesser.html.\n\t\t\t\t\n\t\t\t\t\t\n\tTranslation to English and internationalization by Jan C. Borchardt https://jancborchardt.net\n\t\t\t\t\n\tFor Nextcloud https://nextcloud.com",
+          "tags": [],
+          "attachment": {
+            "date": "2023-05-12T11:42:32.303989814",
+            "keywords": "Arbeitszeit Überstunden",
+            "content_type": "application/vnd.oasis.opendocument.spreadsheet",
+            "modified": "2025-08-08T12:00:57.677835847",
+            "description": "Die Tabelle erlaubt monatsweise die Erfassung der täglichen Arbeitszeiten für eine Person und ermittelt Überstunden oder Minusstunden mit Bezug auf vorgebbare Sollarbeitszeiten. Einzelne Tage können als Feier- oder Freiertag, Krankheit, Urlaub oder Schultag gekennzeichnet werden.\n__________________________________________________\nDer Urheber dieser Vorlage ist Rudolf Braumann, E-Mail: r.braumann@gmx.de\n\nCopyright 2006. Alle Rechte vorbehalten.\n\nDiese Vorlage ist freie Software, steht unter der GNU LGPL Lizenz und darf entsprechend dieser verwendet und verbreitet werden. Der Lizenztext ist zu finden unter http://www.gnu.org/copyleft/lesser.html. Eine deutsche Übersetzung unter http://www.gnu.org/copyleft/lesser.de.html.\n\nDie Vorlage wird verteilt in der Hoffnung, dass sie Nutzen für den Anwender bringt, aber OHNE JEDE GARANTIE. Es bestehen weder Gewährleistungsansprüche irgendwelcher Art noch die Zusicherung irgendwelcher Eigenschaften. Bitte lesen Sie den Lizenztext der GNU LGPL für detailierte Informationen.",
+            "language": "en",
+            "title": "Arbeitszeiterfassung Version 1.14",
+            "content_length": 27235
+          },
+          "provider": "files",
+          "subtags": [],
+          "parts": {
+            "comments": ""
+          },
+          "links": [],
+          "share_names": {
+            "admin": "テンプレート/Timesheet.ods"
+          },
+          "lastModified": 1768978731,
+          "hash": "edf3508dd483c93769cc8088ac4c3703"
+        }
+      },
+      {
+        "_index": "nextcloud",
+        "_id": "files:50",
+        "_score": 1.0,
+        "_ignored": [
+          "content.keyword"
+        ],
+        "_source": {
+          "owner": "admin",
+          "groups": [],
+          "circles": [],
+          "metatags": [
+            "files_local"
+          ],
+          "source": "files_local",
+          "title": "テンプレート/Triangle.odp",
+          "users": [],
+          "content": "TRIANGLE DESIGN\nSub title description\n\n\n\nName\nConference\nDate\n\n\nSECTION TITLE\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit.\n\n\n\nImage content\nImage content\nImage content\n\nSECTION TITLE\n\n\n\nQ1 20XX\nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident\n\nQ2 20XX\nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident\n\nQ3 20XX\nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident\n\nQ4 20XX\nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident\n\n\n\nSECTION TITLE\n\n\n\n\tLorem ipsum dolor sit amet\n\n\tConsectetur adipiscing elit\n\n\tSed do eiusmod tempor incididunt ut labore \n\n\tEt dolore magna aliqua\n\n\tUt enim ad minim veniam\n\n\n\n\nQUOTE\n\n\n\n\t\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\"\n\n\n\n\n\nFull Name, Job Position, Company\n\n\n\nTHANK YOU!",
+          "tags": [],
+          "attachment": {
+            "date": "2025-08-20T06:18:48Z",
+            "content_type": "application/vnd.oasis.opendocument.presentation",
+            "modified": "2025-08-20T08:18:46.283053023",
+            "language": "ro",
+            "title": "Untitled - 20 August 2025 at 08.18.24",
+            "content_length": 1627
+          },
+          "provider": "files",
+          "subtags": [],
+          "parts": {
+            "comments": ""
+          },
+          "links": [],
+          "share_names": {
+            "admin": "テンプレート/Triangle.odp"
+          },
+          "lastModified": 1768978732,
+          "hash": "97d418b28c6adf61f24a440fffcf0ec7"
+        }
+      },
+      {
+        "_index": "nextcloud",
+        "_id": "files:38",
+        "_score": 1.0,
+        "_source": {
+          "share_names": {
+            "admin": "テンプレート/Venn diagram.whiteboard"
+          },
+          "owner": "admin",
+          "users": [],
+          "groups": [],
+          "circles": [],
+          "links": [],
+          "metatags": [
+            "files_local"
+          ],
+          "subtags": [],
+          "tags": [],
+          "hash": "",
+          "provider": "files",
+          "lastModified": 1768978731,
+          "source": "files_local",
+          "title": "テンプレート/Venn diagram.whiteboard",
+          "parts": {
+            "comments": ""
+          },
+          "content": ""
+        }
+      },
+      {
+        "_index": "nextcloud",
+        "_id": "files:56",
+        "_score": 1.0,
+        "_ignored": [
+          "content.keyword"
+        ],
+        "_source": {
+          "owner": "admin",
+          "groups": [],
+          "circles": [],
+          "metatags": [
+            "files_local"
+          ],
+          "source": "files_local",
+          "title": "テンプレート/Yellow idea.odp",
+          "users": [],
+          "content": "Lorem Ipsum\nYELLOW IDEA\nTEMPLATE\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit.\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. In mollis dictum volutpat. Donec bibendum magna vel risus consectetur, aliquet ullamcorper.\n\n\nLorem & Ipsum\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. In mollis dictum volutpat. Donec bibendum magna vel risus consectetur, sit amet aliquet est ullamcorper.\n\n01\n\n\nLorem\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. In mollis dictum volutpat. Donec bibendum magna vel risus consectetur, sit amet aliquet est ullamcorper. Praesent ullamcorper faucibus imperdiet.\n\nIpsum\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. In mollis dictum volutpat. Donec bibendum magna vel risus consectetur, sit amet aliquet est ullamcorper. Praesent ullamcorper faucibus imperdiet.\n\nDolor\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. In mollis dictum volutpat. Donec bibendum magna vel risus consectetur, sit amet aliquet est ullamcorper. Praesent ullamcorper faucibus imperdiet.\n\nSit\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. In mollis dictum volutpat. Donec bibendum magna vel risus consectetur, sit amet aliquet est ullamcorper. Praesent ullamcorper faucibus imperdiet.\n\n\nDolor Sit\n\nIpsum\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. In mollis dictum volutpat. Donec bibendum magna vel risus consectetur, sit amet aliquet est ullamcorper. Praesent ullamcorper faucibus imperdiet.\n\nDolor\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. In mollis dictum volutpat. Donec bibendum magna vel risus consectetur, sit amet aliquet est ullamcorper. Praesent ullamcorper faucibus imperdiet.\n\nLorem\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. In mollis dictum volutpat. Donec bibendum magna vel risus consectetur, sit amet aliquet est ullamcorper. Praesent ullamcorper faucibus imperdiet.\n\nLorem & Ipsum\n\n\nConsectetur\n\nLorem & Ipsum\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. In mollis dictum volutpat. Donec bibendum magna vel risus consectetur, sit amet aliquet est ullamcorper. Praesent ullamcorper faucibus imperdiet. Donec ex velit, dapibus a euismod rhoncus, pharetra id tellus. Aliquam erat volutpat. In non porta sem, non aliquet enim. Interdum et malesuada fames ac ante ipsum primis in faucibus.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. In mollis dictum volutpat. Donec bibendum magna vel risus consectetur, sit amet aliquet est ullamcorper. \n\nPraesent ullamcorper faucibus imperdiet. Donec ex velit, dapibus a euismod rhoncus, pharetra id tellus.\n\nAliquam erat volutpat. In non porta sem, non aliquet enim. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur efficitur sed arcu eget ornare. Fusce sodales, nisi a porttitor cursus, purus quam pretium velit, non euismod nisi lacus vel purus.\n\nDolor Sit\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. In mollis dictum volutpat. Donec bibendum magna vel risus consectetur, sit amet aliquet est ullamcorper. Praesent ullamcorper faucibus imperdiet.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. In mollis dictum volutpat. Donec bibendum magna vel risus consectetur, sit amet aliquet est ullamcorper. Praesent ullamcorper faucibus imperdiet.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. In mollis dictum volutpat. Donec bibendum magna vel risus consectetur, sit amet aliquet est ullamcorper. Praesent ullamcorper faucibus imperdiet.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. In mollis dictum volutpat. Donec bibendum magna vel risus consectetur, sit amet aliquet est ullamcorper. Praesent ullamcorper faucibus imperdiet.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. In mollis dictum volutpat. Donec bibendum magna vel risus consectetur, sit amet aliquet est ullamcorper. Praesent ullamcorper faucibus imperdiet.\n\nDolor Sit\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. In mollis dictum volutpat. Donec bibendum magna vel risus consectetur, sit amet aliquet est ullamcorper.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. In mollis dictum volutpat. Donec bibendum magna vel risus consectetur, sit amet aliquet est ullamcorper.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. In mollis dictum volutpat. Donec bibendum magna vel risus consectetur, sit amet aliquet est ullamcorper.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. In mollis dictum volutpat. Donec bibendum magna vel risus consectetur, sit amet aliquet est ullamcorper.\n\nDolor Sit\n\n\nTHANK YOU\n\nYellow Idea Template for LibreOffice Impress.\nCredit by : @ealita.id, 2020.",
+          "tags": [],
+          "attachment": {
+            "date": "2023-05-12T11:42:48.849974123",
+            "content_type": "application/vnd.oasis.opendocument.presentation",
+            "language": "it",
+            "title": "Yellow Idea",
+            "content_length": 5169
+          },
+          "provider": "files",
+          "subtags": [],
+          "parts": {
+            "comments": ""
+          },
+          "links": [],
+          "share_names": {
+            "admin": "テンプレート/Yellow idea.odp"
+          },
+          "lastModified": 1768978732,
+          "hash": "f4d5b0e5329aa9a773983cde683283fb"
+        }
+      }
+    ]
+  }
+}

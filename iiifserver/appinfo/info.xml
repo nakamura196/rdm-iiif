@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>iiifserver</id>
+    <name>IIIF Server</name>
+    <summary>IIIF Image and Presentation API server with OCR support</summary>
+    <description><![CDATA[
+This app provides IIIF Presentation API endpoints for image folders.
+Features include:
+- IIIF Manifest generation for folder contents
+- IIIF Content Search API with OCR text search
+- Automatic OCR processing on file upload
+- Mirador viewer integration
+    ]]></description>
+    <version>1.0.0</version>
+    <licence>agpl</licence>
+    <author>Your Name</author>
+    <namespace>IiifServer</namespace>
+    <category>files</category>
+    <bugs>https://github.com/your-repo/issues</bugs>
+    <dependencies>
+        <nextcloud min-version="28" max-version="32"/>
+    </dependencies>
+</info>
