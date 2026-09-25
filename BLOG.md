@@ -18,41 +18,7 @@
 
 ### アーキテクチャ概要
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                         ユーザー                                 │
-└─────────────────────────────────────────────────────────────────┘
-                              │
-                              ▼
-┌─────────────────────────────────────────────────────────────────┐
-│                    Nextcloud (Port 8080)                        │
-│  ┌─────────────────────────────────────────────────────────┐   │
-│  │                  iiifserver アプリ                       │   │
-│  │  - IIIF Manifest API                                     │   │
-│  │  - IIIF Search API                                       │   │
-│  │  - Mirador Viewer                                        │   │
-│  │  - ファイルイベントリスナー                              │   │
-│  └─────────────────────────────────────────────────────────┘   │
-└─────────────────────────────────────────────────────────────────┘
-          │                    │                    │
-          ▼                    ▼                    ▼
-┌──────────────┐    ┌──────────────┐    ┌──────────────────┐
-│  Cantaloupe  │    │ Elasticsearch│    │   OCR Worker     │
-│  (Port 8182) │    │              │    │   (Port 5000)    │
-│              │    │              │    │                  │
-│ IIIF Image   │    │ 全文検索     │    │ NDL古典籍OCR Lite│
-│ API 3.0     │    │ インデックス │    │                  │
-└──────────────┘    └──────────────┘    └──────────────────┘
-          │                                      │
-          ▼                                      │
-┌──────────────────────────────────────────────────────────────┐
-│                    Amazon S3 (Object Storage)                 │
-│                       画像ファイル保存                        │
-└──────────────────────────────────────────────────────────────┘
-```
-
-![Cantaloupeトップページ](docs/images/08_cantaloupe.png)
-*Cantaloupe Image Server 5.0.6 - IIIF Image API 3.0サーバー*
+![アーキテクチャ概要](docs/images/00_architecture.png)
 
 ### 使用技術
 
@@ -141,7 +107,7 @@ public function manifest(string $folder): JSONResponse {
 }
 ```
 
-![IIIF Manifest JSON](docs/images/07_manifest_json.png)
+![IIIF Manifest JSON](docs/images/08_manifest_json.png)
 *ブラウザでIIIF Manifest JSONを表示した画面*
 
 ### 3. IIIF Content Search API の実装
@@ -191,8 +157,8 @@ public function search(string $folder): JSONResponse {
 }
 ```
 
-![Miradorビューワ](docs/images/05_mirador_viewer.png)
-*MiradorでIIIF画像を表示し、検索機能を利用できる*
+![Miradorで検索結果をハイライト表示](docs/images/07_mirador_search.png)
+*Miradorの検索パネルで「源氏」を検索し、画像上の該当箇所がハイライト表示される*
 
 ### 4. ファイルイベントリスナーによる自動OCR
 
@@ -272,7 +238,7 @@ def process_file_direct(self, s3_key, file_id, file_path):
     self.es.index(index=IIIF_INDEX, id=doc_id, body=iiif_doc)
 ```
 
-![OCR Worker ヘルスチェック](docs/images/09_ocr_worker_health.png)
+![OCR Worker ヘルスチェック](docs/images/10_ocr_worker_health.png)
 *OCR Worker APIの正常稼働を確認（`/health`エンドポイント）*
 
 ### 6. Elasticsearchインデックス設計
@@ -331,7 +297,10 @@ Nextcloudのセキュリティポリシー（CSP）に対応するため、Mirad
 ```
 
 ![Miradorで画像を表示](docs/images/05_mirador_viewer.png)
-*Miradorビューワでフォルダ内の画像を閲覧。左サイドバーからブックマーク、設定、検索パネルにアクセスできる*
+*Miradorビューワで古典籍画像を閲覧*
+
+![Miradorアノテーション表示](docs/images/06_mirador_annotations.png)
+*OCRで抽出されたテキストがアノテーションとして表示され、画像上にバウンディングボックスがオーバーレイされる*
 
 ---
 
@@ -381,7 +350,7 @@ services:
 docker exec nextcloud php occ app:enable iiifserver
 ```
 
-![Nextcloudアプリ管理画面](docs/images/10_nextcloud_apps.png)
+![Nextcloudアプリ管理画面](docs/images/11_nextcloud_apps.png)
 *Nextcloud管理画面のアプリ一覧*
 
 ### 2. フォルダをIIIF Viewerで開く
@@ -405,8 +374,8 @@ docker exec nextcloud php occ app:enable iiifserver
 
 Miradorの検索パネルでテキストを入力すると、OCRで抽出されたテキストから検索できます。
 
-![Miradorビューワでの画像閲覧](docs/images/05_mirador_viewer.png)
-*Miradorの検索パネルでテキストを入力し、OCRテキストから全文検索が可能*
+![Miradorで検索](docs/images/07_mirador_search.png)
+*Miradorの検索パネルで「源氏」を検索。該当箇所が画像上にハイライト表示され、サイドパネルに検索結果一覧が表示される*
 
 ---
 
@@ -428,7 +397,7 @@ Nextcloudの `strict-dynamic` CSPポリシーにより、外部CDNからのス�
 2. S3の認証情報が正しいか確認
 3. Elasticsearchが起動しているか確認
 
-![OCR Worker正常稼働](docs/images/09_ocr_worker_health.png)
+![OCR Worker正常稼働](docs/images/10_ocr_worker_health.png)
 *OCR Workerが正常に動作している状態*
 
 ---

@@ -1,0 +1,11 @@
+% 画像に枠線を追加し、ページ幅に収める
+\usepackage{graphicx}
+\usepackage{calc}
+\let\oldincludegraphics\includegraphics
+\renewcommand{\includegraphics}[2][]{%
+  \fbox{\oldincludegraphics[#1, width=\dimexpr\linewidth-2\fboxsep-2\fboxrule\relax]{#2}}%
+}
+
+% fboxの余白とルール幅を調整
+\setlength{\fboxsep}{2pt}
+\setlength{\fboxrule}{0.4pt}
